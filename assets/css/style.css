@@ -120,6 +120,19 @@ footer a:hover{
     background-color:var(--clr-modal-buttons);
 }
 
+.screen-titles{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--clr-text-);
+}
+
+.screen-description{
+    font-size: 1.3rem;
+    color: var(--clr-text-);
+    padding: 3%;
+
+}
+
 
 .welcome-screen{
     display: flex;
