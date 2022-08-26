@@ -18,6 +18,8 @@ body{
     justify-content: center;
     align-items: center;
     background:#b0a3a3 no-repeat center/cover url(/assets/images/game-stageashok-chakravarthi-unsplash.jpg);
+    cursor: none;
+
    
 }
 
@@ -41,6 +43,32 @@ header{
     font-size: 1.2rem;
     margin-top: 20px;
     width: 100%;
-    
+
+}
+
+#game-field{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    z-index: 5;
+   
+
+}
+
+.cursor{
+    width: 25px;
+    height: 25px;
+    font-weight: 900;
+    background-color: red;
+    background-blend-mode: color-burn;
+    background:no-repeat center/cover url(/assets/images/crosshair-2.jpg) ;
+    /* background-image: url(images/nota.jpg);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    z-index: 20;
 }
 
