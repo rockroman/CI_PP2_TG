@@ -146,3 +146,10 @@ footer a:hover{
   
 }
 
+#welcome-screen{
+    z-index: 30;
+    /* display not in original code so remove */
+    display: none;
+  
+}
+
