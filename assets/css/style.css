@@ -153,3 +153,19 @@ footer a:hover{
   
 }
 
+#start-game-modal{
+    justify-content: space-between;
+     
+ 
+ }
+
+ #target{
+    height: 100px;
+    width: 100px;
+     
+ }
+ label{
+     color: white;
+     font-size: 1.3rem;
+ }
+
