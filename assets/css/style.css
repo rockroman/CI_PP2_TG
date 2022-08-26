@@ -27,6 +27,7 @@ h1{
     color: var(--clr-text-);
     text-align: center;
     padding-top: 10px;
+    width: 100vw;
     font-weight: 800;
     text-transform: uppercase;
     background-color: #3b3939;
@@ -59,16 +60,31 @@ header{
     width: 25px;
     height: 25px;
     font-weight: 900;
-    background-color: red;
     background-blend-mode: color-burn;
     background:no-repeat center/cover url(/assets/images/crosshair-2.jpg) ;
-    /* background-image: url(images/nota.jpg);
-    background-size: cover;
-    background-position: center; */
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     pointer-events: none;
     z-index: 20;
+}
+
+footer{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 20px; */
+    background-color: #3b3939;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+footer a:hover{
+    color:green;
 }
 
