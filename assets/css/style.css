@@ -2,6 +2,7 @@
 :root{
     --clr-modal-background:#0a0a0a;
     --clr-text-:#ffffff;
+    --clr-modal-buttons: #ffa500;
 
 }
 
@@ -86,5 +87,49 @@ footer a{
 
 footer a:hover{
     color:green;
+}
+
+/* modal screens style */
+
+.modal{
+    border: .3px inset white;
+    background-color: rgb(58, 50, 50);
+    padding: 2%;
+    width: 85vw;
+    height: 80vh;
+    padding: 2%;
+    position: absolute;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto; 
+    z-index: 20;
+
+}
+
+.modal-button{
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    width: 130px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color:var(--clr-modal-buttons);
+}
+
+
+.welcome-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:center/cover url(/assets/images/welcome_guitar-maxime-favier-unsplash.jpg);
+    background-blend-mode: overlay;
+    justify-content: center;
+    gap: 12%;
+        
+  
 }
 
