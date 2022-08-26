@@ -180,22 +180,37 @@ footer a:hover{
     background-color:var(--clr-modal-background);
     height: 70vh;
     width: 85vw;
-    justify-content: space-around;
-    padding: 2%;
-    position: absolute;
-    border-radius: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 2%; 
+    border-radius: 2%;
     left: 0;
     right: 0;
     top: 0;
     margin: auto; 
     z-index: 20;
+      /* display not in original code so remove */
+      display: none;
     
 
 }
 
 #game-over >button{
     width: 80%;
+}
+
+#transition-screen{
+    background-color: black;
+    justify-content: center;
+    gap: 15%;
+    /* this display was in original code */
+    /* display: none;    */
+   
+}
+
+#play-quiz{
+    width:80% ;
 }
