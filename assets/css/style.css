@@ -128,7 +128,7 @@ footer a:hover{
 }
 
 .screen-description{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--clr-text-);
     padding: 3%;
 
@@ -150,15 +150,16 @@ footer a:hover{
 #welcome-screen{
     z-index: 30;
     /* display not in original code so remove */
-    /* display: none; */
+    display: none;
   
 }
 
 #start-game-modal{
     justify-content: space-between;
      /* display not in original code so remove */
-     display: none;
-     
+     /* display: none; */
+     width: 300px;
+     height: 530px;
  
  }
 
@@ -170,11 +171,11 @@ footer a:hover{
 
  label{
      color: white;
-     font-size: 1.3rem;
+     font-size: 1.5rem;
  }
 
  #userName{
-    height: 25px;
+    height: 35px;
 }
 
 .game-over{
@@ -236,4 +237,26 @@ footer a:hover{
     padding: 15px 30px;
     width: 200px;
    }
+
+   #start-game-modal{
+    width: 400px;
+    height: 640px;
+   }
  }
+
+ @media screen and (min-width:760px){
+    .modal{
+        width:65vw;
+    }
+ }
+
+ @media screen and (min-width:920px){
+    .modal{
+        width:45vw;
+    }
+
+    #start-game-modal{
+        width: 500px;
+        
+       }
+ } 
