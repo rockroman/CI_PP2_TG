@@ -1,6 +1,8 @@
 # TOTAL GUITAR
 (Developer: Roman Rakic)
 
+# PROJECT UNDER DEVELOPMENT
+
 ![Mockup image](docs/am-i-responsive-img.png)
 
 [TOTAL GUITAR>>>Live webpage](https://rockroman.github.io/CI_PP2_TG/)
