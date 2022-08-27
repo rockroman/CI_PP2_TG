@@ -20,6 +20,7 @@ body{
     align-items: center;
     background:#b0a3a3 no-repeat center/cover url(/assets/images/game-stage-big-ashok-chakravarthi-unsplash.jpg);
     cursor: none;
+    background-color: #0a0a0a;
 
    
 }
@@ -37,14 +38,15 @@ h1{
 }
 
 header{
+    background-color: #3b3939;
     display: flex;
     justify-content: space-between;
     align-items: center; 
     height: 2rem;
     color:var(--clr-text-);
     font-size: 1.2rem;
-    margin-top: 20px;
-    padding: 0 2% 0 2%;
+    /* margin-top: 20px; */
+    padding: 20px 2% 0 2%;
     width: 100%;
 
 }
@@ -150,17 +152,16 @@ footer a:hover{
 #welcome-screen{
     z-index: 30;
     /* display not in original code so remove */
-    display: none;
+    /* display: none; */
   
 }
 
 #start-game-modal{
     justify-content: space-between;
      /* display not in original code so remove */
-     display: none;
-     width: 300px;
-     height: 530px;
- 
+    display: none;
+    height: 85vh;
+  
  }
 
  #target{
@@ -181,7 +182,7 @@ footer a:hover{
 .game-over{
     background-color:var(--clr-modal-background);
     height: 70vh;
-    width: 300px;
+    width: 85vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +196,7 @@ footer a:hover{
     margin: auto; 
     z-index: 20;
       /* display not in original code so remove */
-      /* display: none; */
+     display: none;
     
 
 }
@@ -209,8 +210,9 @@ footer a:hover{
     justify-content: center;
     gap: 15%;
     /* this display was in original code */
-    /* display: none;    */
-    display: none;
+    display: none;   
+    height: 520px;
+   
    
 }
 
@@ -221,6 +223,12 @@ footer a:hover{
 
 
 /* media queries */
+
+@media screen and (min-width:380px){
+    .modal, .game-over{
+        width: 300px;
+    }
+}
 
 @media screen and (min-width:640px){
 
@@ -247,11 +255,15 @@ footer a:hover{
     width: 400px;
 }
 
+#transition-screen{
+    width: 400px;
+}
+
 }
 
 @media screen and (min-width:760px){
     .modal{
-        width:65vw;
+        width:55vw;
     }
 }
 
@@ -264,8 +276,12 @@ footer a:hover{
         width: 500px;
         
     }
-    
+
     .game-over{
+        width: 500px;
+    }
+
+    #transition-screen{
         width: 500px;
     }
 } 
