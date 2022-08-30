@@ -105,6 +105,28 @@ gameField.addEventListener('click',(e)=>{
     currentTries.unshift(tries);
 });
 
+/**
+ * gets current score and number of tries and 
+ * based on the result either finishes the game
+ * or make user proceed to a quiz game 
+ */
+ function getScore(){
+    gameField.addEventListener('click',function(){
+        // variables that holds current score and number of tries
+        let y=currentScore[0];
+        let a=currentTries[0];
+        if(y===100){
+            gameField.style.display='none';
+            transit_Screen.style.display='flex';
+        }else if(a===0){
+            gameField.style.display='none'
+            game_Over();
+        }
+
+      
+    });
+}
+
 
 
 function startGame(){
