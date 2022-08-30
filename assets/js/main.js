@@ -56,8 +56,8 @@ shotSpot.setAttribute('id','holeImg');
  * 
  */
 function cursor(e){
-    myCursor.style.top=(e.pageY-32) + 'px';
-    myCursor.style.left=(e.pageX-5) + 'px';
+    myCursor.style.top=(e.pageY) + 'px';
+    myCursor.style.left=(e.pageX) + 'px';
 }
 
 window.addEventListener('mousemove',cursor);
@@ -69,8 +69,10 @@ function shootingCursor(){
     gameField.addEventListener('click',(e)=>{
         gameField.appendChild(shotSpot);
         shotSpot.style.display='block';
-        shotSpot.style.top=(e.pageY-125) + 'px';
-        shotSpot.style.left=(e.pageX-20) + 'px';
+        shotSpot.style.top=(e.pageY-95) + 'px';
+        shotSpot.style.left=(e.pageX-15) + 'px';
+
+        console.log(e.pageY);
 
     });
 }
@@ -127,7 +129,22 @@ gameField.addEventListener('click',(e)=>{
     });
 }
 
+/**
+ * ending a game
+ */
+function gameOver(){
+    game_Over.style.display='flex';
+}
 
+function makeTargetGuitar(){
+    // set random position of target
+    let randomPosTop=Math.floor(Math.random()* (gameHeight-130));
+    let randomPosLeft=Math.floor(Math.random()* (gameWidth-130));
+    targetGuitar.style.top=randomPosTop + 'px';
+    targetGuitar.style.left=randomPosLeft + 'px';
+    gameField.appendChild(targetGuitar);
+    
+}
 
 function startGame(){
     shootingCursor();
