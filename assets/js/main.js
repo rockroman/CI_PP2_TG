@@ -28,7 +28,7 @@ let play_Quiz=document.getElementById('play-quiz');
 /**
  * optional vars
  */
-let dummyInstruments=["../assets/images/dummy1-guilherme-paiva-unsplash.jpg","../assets/images/dummy2-guitar-g341940868_640.jpg","../assetsimages/dummy3-wood-gce9c5bb8c_640.jpg","../assets/images/dummy4-polygon-group-unsplash.jpg"]
+let dummyInstruments=["../assets/images/dummy1-guilherme-paiva-unsplash.jpg","../assets/images/dummy2-guitar-g341940868_640.jpg","../assetsimages/dummy3-wood-gce9c5bb8c_640.jpg","../assets/images/dummy4-polygon-group-unsplash.jpg"];
 let myInstrument=document.createElement('img');
 myInstrument.setAttribute('class','my-inst');
 myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
@@ -87,6 +87,25 @@ function shootingCursor(){
 //     shotSpot.style.top=(e.pageY-15) + 'px';
 
 // }
+
+/**
+ * recognizing hit and miss of target and updating score and tries
+ */
+gameField.addEventListener('click',(e)=>{
+    if(e.target===targetGuitar){
+        score +=10;
+        console.log('yes');
+    }
+    else{
+        tries --;
+        console.log('miss');
+    }
+    // putting score and tries to matching array as a first element
+    currentScore.unshift(score);
+    currentTries.unshift(tries);
+});
+
+
 
 function startGame(){
     shootingCursor();
