@@ -185,8 +185,30 @@ gameField.addEventListener('click',function(){
 
 
  function startGame(){
+    score=0;
+    tries=5;
     shootingCursor();
-    setInterval( makeTargetGuitar,1300);
     getScore();
+    // make variables to store interval id's so the interval can be cleared
+    let i=setInterval(makeTargetGuitar,1300);
+    let j=0;
+    let k=0;
+    let countClicksInGame=0;
+    gameField.addEventListener('click',function(){
+        countClicksInGame +=1;
+        if(countClicksInGame===3){
+            // clear first interval
+            clearInterval(i);
+            gameField.removeChild(targetGuitar);
+            j=setInterval(makeTargetGuitar,1100);
+        }else if(countClicksInGame===6){
+            // clear 2nd interval
+            clearInterval(j);
+            gameField.removeChild(targetGuitar);
+            k=setInterval(makeTargetGuitar,900);
+        }
+    })
+      
+
 }
 startGame();
