@@ -49,4 +49,47 @@ myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
 /**
  * setting atribute for custom cursor click
  */
-shotSpot.setAttribute('class','holeImg');
+shotSpot.setAttribute('id','holeImg');
+
+/**
+ * make custom cursor folow movement of cursor
+ * 
+ */
+function cursor(e){
+    myCursor.style.top=(e.pageY-32) + 'px';
+    myCursor.style.left=(e.pageX-5) + 'px';
+}
+
+window.addEventListener('mousemove',cursor);
+
+/**
+ * 
+ */
+function shootingCursor(){
+    gameField.addEventListener('click',(e)=>{
+        gameField.appendChild(shotSpot);
+        shotSpot.style.display='block';
+        shotSpot.style.top=(e.pageY-125) + 'px';
+        shotSpot.style.left=(e.pageX-20) + 'px';
+
+    });
+}
+
+// gameField.addEventListener('click',customholeImg);
+
+// /**
+//  * 
+//  */
+// function customholeImg(e){
+//     gameField.appendChild(shotSpot);   
+//     shotSpot.style.display='block'
+//     shotSpot.style.left=(e.pageX-10) + 'px'
+//     shotSpot.style.top=(e.pageY-15) + 'px';
+
+// }
+
+function startGame(){
+    shootingCursor();
+}
+
+startGame();
