@@ -24,3 +24,29 @@ let play_Quiz=document.getElementById('play-quiz');
  let tries=5;
  let currentScore=[];
  let currentTries=[];
+
+/**
+ * optional vars
+ */
+let dummyInstruments=["../assets/images/dummy1-guilherme-paiva-unsplash.jpg","../assets/images/dummy2-guitar-g341940868_640.jpg","../assetsimages/dummy3-wood-gce9c5bb8c_640.jpg","../assets/images/dummy4-polygon-group-unsplash.jpg"]
+let myInstrument=document.createElement('img');
+myInstrument.setAttribute('class','my-inst');
+myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
+
+/**
+ * defining the game field width and height
+ */
+ let gameHeight=gameField.offsetHeight;
+ let gameWidth=gameField.offsetWidth;
+
+ /**
+  * create target element and set atribute for the same
+  */
+ let targetGuitar=document.createElement('img');
+ targetGuitar.setAttribute('id','target-guitar');
+ targetGuitar.src=`../assets/images/welcome_guitar-maxime-favier-unsplash.jpg`;
+
+/**
+ * setting atribute for custom cursor click
+ */
+shotSpot.setAttribute('class','holeImg');

@@ -73,6 +73,15 @@ header{
     z-index: 20;
 }
 
+#holeImg{
+    width: 20px;
+    height: 20px;
+    background: none center/cover url(../images/bullet-hole.webp);
+    position: absolute;
+    display: none;
+
+}
+
 footer{
     width: 40%;
     display: flex;
