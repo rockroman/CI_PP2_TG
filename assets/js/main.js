@@ -52,6 +52,17 @@ myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
 shotSpot.setAttribute('id','holeImg');
 
 /**
+ * restart the game after
+ * user lost all tries to hit the target
+ */
+try_Again.addEventListener('click',function(){
+    document.location.reload(true);
+    startGame();
+    game_Over.style.display='none';
+
+})
+
+/**
  * make custom cursor folow movement of cursor
  * 
  */
@@ -96,10 +107,12 @@ function shootingCursor(){
 gameField.addEventListener('click',(e)=>{
     if(e.target===targetGuitar){
         score +=10;
+        my_score.textContent=score;
         console.log('yes');
     }
     else{
         tries --;
+        my_tries.textContent=tries;
         console.log('miss');
     }
     // putting score and tries to matching array as a first element
@@ -118,11 +131,11 @@ gameField.addEventListener('click',(e)=>{
         let y=currentScore[0];
         let a=currentTries[0];
         if(y===100){
-            gameField.style.display='none';
+            // gameField.style.display='none';
+            gameField.style.pointerEvents='none';
             transit_Screen.style.display='flex';
         }else if(a===0){
-            gameField.style.display='none';
-            game_Over();
+            gameOver();
         }
 
       
@@ -136,6 +149,7 @@ gameField.addEventListener('click',(e)=>{
  */
 function gameOver(){
     game_Over.style.display='flex';
+    gameField.style.pointerEvents='none';
 }
 
 /**
@@ -173,4 +187,6 @@ gameField.addEventListener('click',function(){
  function startGame(){
     shootingCursor();
     setInterval( makeTargetGuitar,1300);
+    getScore();
 }
+startGame();
