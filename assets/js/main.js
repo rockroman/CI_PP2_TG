@@ -121,13 +121,15 @@ gameField.addEventListener('click',(e)=>{
             gameField.style.display='none';
             transit_Screen.style.display='flex';
         }else if(a===0){
-            gameField.style.display='none'
+            gameField.style.display='none';
             game_Over();
         }
 
       
     });
 }
+
+
 
 /**
  * ending a game
@@ -136,6 +138,11 @@ function gameOver(){
     game_Over.style.display='flex';
 }
 
+/**
+ * 
+ * function that puts target on
+ * random position on ascreen
+ */
 function makeTargetGuitar(){
     // set random position of target
     let randomPosTop=Math.floor(Math.random()* (gameHeight-130));
@@ -146,8 +153,16 @@ function makeTargetGuitar(){
     
 }
 
+/**
+ * posible function
+ */
+//  same like make target but (random dummy target and append myInstrument)
+
 function startGame(){
     shootingCursor();
+    setInterval( makeTargetGuitar,1300);
 }
 
-startGame();
+/**
+ * clicks on a screen counter for setting the game pace
+ */

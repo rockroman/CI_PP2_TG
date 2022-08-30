@@ -83,6 +83,12 @@ header{
 
 }
 
+#target-guitar{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+}
+
 footer{
     width: 40%;
     display: flex;
