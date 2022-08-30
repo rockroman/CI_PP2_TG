@@ -52,6 +52,13 @@ myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
 shotSpot.setAttribute('id','holeImg');
 
 /**
+ * clear the welcome message and modal
+ */
+next_Btn.addEventListener('click',function(){
+    welcome_Screen.setAttribute('class','hide');
+})
+
+/**
  * restart the game after
  * user lost all tries to hit the target
  */
@@ -60,6 +67,15 @@ try_Again.addEventListener('click',function(){
     startGame();
     game_Over.style.display='none';
 
+})
+
+/**
+ * add listener to stat modal button
+ * so user can initiate the game
+ */
+play_Btn.addEventListener('click',function(){
+    start_Modal.setAttribute('class','hide');
+    startGame();
 })
 
 /**
@@ -211,4 +227,4 @@ gameField.addEventListener('click',function(){
       
 
 }
-startGame();
+// startGame();
