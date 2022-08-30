@@ -158,11 +158,19 @@ function makeTargetGuitar(){
  */
 //  same like make target but (random dummy target and append myInstrument)
 
-function startGame(){
-    shootingCursor();
-    setInterval( makeTargetGuitar,1300);
-}
 
 /**
  * clicks on a screen counter for setting the game pace
  */
+let countClicksInGame=0;
+gameField.addEventListener('click',function(){
+    countClicksInGame +=1;
+});
+
+
+
+
+ function startGame(){
+    shootingCursor();
+    setInterval( makeTargetGuitar,1300);
+}
