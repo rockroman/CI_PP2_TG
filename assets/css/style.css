@@ -22,6 +22,10 @@ body{
     cursor: none;
     background-color: #0a0a0a;
     position: relative;
+    min-width: 100%;
+    overflow: hidden;
+   
+   
 
    
 }
@@ -153,6 +157,7 @@ footer a:hover{
     color: var(--clr-text-);
     padding: 3%;
 
+
 }
 
 
@@ -163,7 +168,7 @@ footer a:hover{
     background:center/cover url(../images/welcome_guitar-maxime-favier-unsplash.webp);
     background-blend-mode: overlay;
     justify-content: center;
-    gap: 12%;
+    gap: 5%;
   
         
   
@@ -173,29 +178,26 @@ footer a:hover{
     z-index: 30;
     /* display not in original code so remove */
     /* display: none; */
-    height: 85vh;
+    height: 75vh;
 }
 
 #start-game-modal{
-    justify-content: space-between;
-    height: 85vh;
+    justify-content: center;
+    height: 75vh;
+    gap: 5%;
+  
   
  }
 
- #target{
-    height: 100px;
+ #target-img{
+    height: 160px;
     width: 100px;
+    float: left;
+    margin: 5px;
      
  }
 
- label{
-     color: white;
-     font-size: 1.5rem;
- }
 
- #userName{
-    height: 35px;
-}
 
 .hide{
     display: none;
@@ -246,9 +248,15 @@ footer a:hover{
 
 /* media queries */
 
-@media screen and (min-width:380px){
-    .modal, .game-over{
+@media screen and (min-width:480px){
+    /* .modal, .game-over{
         width: 300px;
+    } */
+    .screen-description{
+        font-size:1.8rem ;
+    }
+    .screen-titles{
+        font-size: 2.5rem;
     }
 }
 
@@ -268,7 +276,9 @@ footer a:hover{
     width: 200px;
    }
 
-#start-game-modal{
+#start-game-modal,
+#transition-screen,
+#welcome-screen{
     width: 400px;
     height: 640px;
 }
@@ -277,24 +287,22 @@ footer a:hover{
     width: 400px;
 }
 
-#transition-screen{
-    width: 400px;
 }
 
-}
-
-@media screen and (min-width:760px){
+/* @media screen and (min-width:760px){
     .modal{
         width:55vw;
     }
-}
+} */
 
 @media screen and (min-width:920px){
     .modal{
         width:45vw;
     }
 
-    #start-game-modal{
+    #start-game-modal,
+    #transition-screen,
+    #welcome-screen {
         width: 500px;
         
     }
@@ -303,7 +311,32 @@ footer a:hover{
         width: 500px;
     }
 
-    #transition-screen{
-        width: 500px;
+    #target-guitar{
+        height: 70px;
+        width: 40px;
     }
+
 } 
+
+/* new modal try */
+
+#test-modal {
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    height: 50vh;
+    width: 50vw;
+    background-color: white;     
+ }
+ #inner-modal{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+ }
+ /* end of new modal */

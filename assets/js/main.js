@@ -26,6 +26,14 @@ let play_Quiz=document.getElementById('play-quiz');
  let currentTries=[];
 //  let targetGuitar=document.getElementById('target-guitar');
 
+
+// ccode for input mobile keyboard not distortin layout
+
+
+
+
+// end keyboard
+
 /**
  * optional vars
  */
