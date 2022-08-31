@@ -21,6 +21,7 @@ body{
     background:#b0a3a3 no-repeat center/cover url(../images/game-stage-big-ashok-chakravarthi-unsplash.jpg);
     cursor: none;
     background-color: #0a0a0a;
+    position: relative;
 
    
 }
@@ -87,6 +88,7 @@ header{
     height: 50px;
     width: 30px;
     position: absolute;
+    display: none;
 }
 
 footer{
@@ -124,9 +126,10 @@ footer a:hover{
     align-items: center;
     left: 0;
     right: 0;
-    top: 0;
+    top: 5px;
     margin: auto; 
     z-index: 20;
+    overflow-y: visible;
 
 }
 
@@ -157,7 +160,7 @@ footer a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:center/cover url(../images/welcome_guitar-maxime-favier-unsplash.jpg);
+    background:center/cover url(../images/welcome_guitar-maxime-favier-unsplash.webp);
     background-blend-mode: overlay;
     justify-content: center;
     gap: 12%;

@@ -24,6 +24,7 @@ let play_Quiz=document.getElementById('play-quiz');
  let tries=5;
  let currentScore=[];
  let currentTries=[];
+ let targetGuitar=document.getElementById('target-guitar');
 
 /**
  * optional vars
@@ -31,7 +32,7 @@ let play_Quiz=document.getElementById('play-quiz');
 let dummyInstruments=["../assets/images/dummy1-guilherme-paiva-unsplash.jpg","../assets/images/dummy2-guitar-g341940868_640.jpg","../assetsimages/dummy3-wood-gce9c5bb8c_640.jpg","../assets/images/dummy4-polygon-group-unsplash.jpg"];
 let myInstrument=document.createElement('img');
 myInstrument.setAttribute('class','my-inst');
-myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
+// myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
 
 /**
  * defining the game field width and height
@@ -42,9 +43,9 @@ myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
  /**
   * create target element and set atribute for the same
   */
- let targetGuitar=document.createElement('img');
- targetGuitar.setAttribute('id','target-guitar');
- targetGuitar.src=`../assets/images/welcome_guitar-maxime-favier-unsplash.jpg`;
+//  let targetGuitar=document.createElement('img');
+//  targetGuitar.setAttribute('id','target-guitar');
+//  targetGuitar.src='../images/welcome_guitar-maxime-favier-unsplash.webp';
 
 /**
  * setting atribute for custom cursor click
@@ -179,7 +180,8 @@ function makeTargetGuitar(){
     let randomPosLeft=Math.floor(Math.random()* (gameWidth-130));
     targetGuitar.style.top=randomPosTop + 'px';
     targetGuitar.style.left=randomPosLeft + 'px';
-    gameField.appendChild(targetGuitar);
+    // gameField.appendChild(targetGuitar);
+    targetGuitar.style.display='block';
     
 }
 
@@ -215,12 +217,13 @@ gameField.addEventListener('click',function(){
         if(countClicksInGame===3){
             // clear first interval
             clearInterval(i);
-            gameField.removeChild(targetGuitar);
+            // gameField.removeChild(targetGuitar);
             j=setInterval(makeTargetGuitar,1100);
+            gameField.appendChild(targetGuitar);
         }else if(countClicksInGame===6){
             // clear 2nd interval
             clearInterval(j);
-            gameField.removeChild(targetGuitar);
+            // gameField.removeChild(targetGuitar);
             k=setInterval(makeTargetGuitar,900);
         }
     })
