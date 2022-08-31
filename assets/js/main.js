@@ -24,7 +24,7 @@ let play_Quiz=document.getElementById('play-quiz');
  let tries=5;
  let currentScore=[];
  let currentTries=[];
- let targetGuitar=document.getElementById('target-guitar');
+//  let targetGuitar=document.getElementById('target-guitar');
 
 /**
  * optional vars
@@ -43,9 +43,9 @@ myInstrument.setAttribute('class','my-inst');
  /**
   * create target element and set atribute for the same
   */
-//  let targetGuitar=document.createElement('img');
-//  targetGuitar.setAttribute('id','target-guitar');
-//  targetGuitar.src='../images/welcome_guitar-maxime-favier-unsplash.webp';
+ let targetGuitar=document.createElement('img');
+ targetGuitar.setAttribute('id','target-guitar');
+ targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
 
 /**
  * setting atribute for custom cursor click
@@ -180,8 +180,8 @@ function makeTargetGuitar(){
     let randomPosLeft=Math.floor(Math.random()* (gameWidth-130));
     targetGuitar.style.top=randomPosTop + 'px';
     targetGuitar.style.left=randomPosLeft + 'px';
-    // gameField.appendChild(targetGuitar);
-    targetGuitar.style.display='block';
+    gameField.appendChild(targetGuitar);
+    // targetGuitar.style.display='block';
     
 }
 
@@ -217,13 +217,12 @@ gameField.addEventListener('click',function(){
         if(countClicksInGame===3){
             // clear first interval
             clearInterval(i);
-            // gameField.removeChild(targetGuitar);
+            gameField.removeChild(targetGuitar);
             j=setInterval(makeTargetGuitar,1100);
-            gameField.appendChild(targetGuitar);
         }else if(countClicksInGame===6){
             // clear 2nd interval
             clearInterval(j);
-            // gameField.removeChild(targetGuitar);
+            gameField.removeChild(targetGuitar);
             k=setInterval(makeTargetGuitar,900);
         }
     })
