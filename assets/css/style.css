@@ -291,6 +291,36 @@ footer a:hover{
 
 }
 
+#footer404{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    
+    
+ }
+
+ #footer404,
+ .social-media{
+    display: flex;
+    align-items: center;
+    
+ }
+
+ .social-media{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+ }
+
+ .author{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: var(--clr-text-);
+  
+
+ }
+
 
 
 /* media queries */
