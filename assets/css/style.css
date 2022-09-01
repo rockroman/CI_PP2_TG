@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 /* root css variables */
 :root{
     --clr-modal-background:#0a0a0a;
@@ -118,7 +119,7 @@ footer a:hover{
     color:green;
 }
 
-/* modal screens style */
+/*                     modal screens style                  */
 
 .modal{
     border: .3px inset white;
@@ -246,7 +247,7 @@ footer a:hover{
     width:80% ;
 }
 
-/* 404 page styles */
+/*             404 page styles                */
 
 #container404{
     background-color: black;
@@ -258,6 +259,12 @@ footer a:hover{
     align-items: center;
     position: fixed;
 
+}
+
+.title404{
+    font-size: 1.8rem;
+    background: transparent;
+    font-family: 'Langar',Arial, Helvetica, sans-serif;
 }
 
 
