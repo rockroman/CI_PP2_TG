@@ -22,7 +22,7 @@ body{
     cursor: none;
     background-color: #0a0a0a;
     position: relative;
-    min-width: 100%;
+    max-width: 100vh;
     overflow: hidden;
    
    
@@ -244,6 +244,12 @@ footer a:hover{
     width:80% ;
 }
 
+/* 404 page styles */
+#page-404{
+    background: no-repeat center/cover url(assets/images/404-page.jpg);
+   
+}
+
 
 
 /* media queries */
@@ -289,11 +295,7 @@ footer a:hover{
 
 }
 
-/* @media screen and (min-width:760px){
-    .modal{
-        width:55vw;
-    }
-} */
+
 
 @media screen and (min-width:920px){
     .modal{
