@@ -5,6 +5,7 @@
     --clr-text-:#ffffff;
     --clr-modal-buttons: #ffa500;
     --clr-target:#ff0000;
+    --clr-404-btn:#008000;
 
 }
 
@@ -265,6 +266,29 @@ footer a:hover{
     font-size: 1.8rem;
     background: transparent;
     font-family: 'Langar',Arial, Helvetica, sans-serif;
+}
+
+#subtitle404{
+    color: var(--clr-modal-buttons);
+    font-size: 7rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    font-family: 'Langar',Arial, Helvetica, sans-serif;
+    
+}
+
+#btn404{
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color:var(--clr-404-btn);
+    color: var(--clr-text-);
+    border-radius: 5px;
+    border: 1px solid var(--clr-text-);
+    
+
 }
 
 
