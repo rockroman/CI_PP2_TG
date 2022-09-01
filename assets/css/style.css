@@ -23,12 +23,10 @@ body{
     cursor: none;
     background-color: #0a0a0a;
     overflow-x: hidden;
-   
-   
-   
-
+    
    
 }
+
 body::before{
     position: fixed;
     width: 100vw;
@@ -66,11 +64,11 @@ header{
     height: 90vh;
     position: relative;
     z-index: 5;
-    border: 2px solid var(--clr-modal-background) ;
-   
+    border: 2px solid var(--clr-modal-background) ;  
 
 }
 
+/* add image to custom cursor */
 .cursor{
     width: 15px;
     height: 15px;
@@ -83,7 +81,7 @@ header{
     pointer-events: none;
     z-index: 20;
 }
-
+/* add image to click position on screen */
 #holeImg{
     width: 25px;
     height: 25px;
@@ -166,7 +164,6 @@ footer a:hover{
 
 }
 
-
 .welcome-screen{
     display: flex;
     flex-direction: column;
@@ -175,7 +172,6 @@ footer a:hover{
     background-blend-mode: overlay;
     justify-content: center;
     gap: 5%;
-  
         
   
 }
@@ -193,15 +189,15 @@ footer a:hover{
     gap: 5%;
   
   
- }
+}
 
- #target-img{
+#target-img{
     height: 160px;
     width: 100px;
     float: left;
     margin: 5px;
      
- }
+}
 
 
 
@@ -251,9 +247,17 @@ footer a:hover{
 }
 
 /* 404 page styles */
-#page-404{
-    background: no-repeat center/cover url(assets/images/404-page.jpg);
-   
+
+#container404{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
 }
 
 
