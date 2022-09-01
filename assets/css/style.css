@@ -323,7 +323,7 @@ footer a:hover{
 
 
 
-/* media queries */
+/*                media queries                  */
 
 @media screen and (min-width:480px){
     /* .modal, .game-over{
@@ -339,30 +339,60 @@ footer a:hover{
 
 @media screen and (min-width:640px){
 
-.screen-titles{
-    font-size:2.8rem ;
- }
+    .screen-titles{
+        font-size:2.8rem ;
+    }
 
-.screen-description{
-    font-size: 1.8rem;
-   }
+    .screen-description{
+        font-size: 1.8rem;
+    }
 
-.modal-button{
-    font-size: 1.8rem;
-    padding: 15px 30px;
-    width: 200px;
-   }
+    .modal-button{
+        font-size: 1.8rem;
+        padding: 15px 30px;
+        width: 200px;
+    }
 
-#start-game-modal,
-#transition-screen,
-#welcome-screen{
-    width: 400px;
-    height: 640px;
-}
+    #start-game-modal,
+    #transition-screen,
+    #welcome-screen{
+        width: 400px;
+        height: 640px;
+    }
 
-.game-over{
-    width: 400px;
-}
+    .game-over{
+        width: 400px;
+    }
+
+    /*           404 page media queries        */
+
+    #subtitle404{
+        font-size: 9rem;
+    }
+
+    .title404{
+        font-size: 4.5rem;
+    }
+
+    #footer404{
+        width: 50%;
+    }
+
+    #footer404 a{
+        font-size: 2rem;
+    }
+
+    .author{
+        font-size: 1.5rem;
+    }
+
+    #btn404{
+        width: 240px;
+        padding: 10px 15px;
+        font-size: 1.5rem;
+    }
+
+
 
 }
 
