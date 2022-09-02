@@ -40,5 +40,17 @@ function getQuestion(){
     questionCounter++;
     // updating progress bar
     progressBarFull.style.width=`${(questionCounter/maxQuestionNumber) * 100}%`;
+    // get index of a question from question array
+    let questIndex=Math.floor(Math.random() * setOfQuestions.length);
+    currentQuestion=setOfQuestions[questIndex];
+    question.textContent=currentQuestion.question;
+    // populate questions answers from array
+    choices.forEach(choice=>{
+        let number=choice.dataset.number;
+        choice.textContent=currentQuestion['choice'+number];
+    })
+
+
+
 
 }
