@@ -7,6 +7,7 @@
     --clr-target:#ff0000;
     --clr-404-btn:#008000;
     --clr-btn-background:#3b3939;
+    --clr-black:black;
 
 }
 
@@ -296,7 +297,7 @@ footer a:hover{
     flex-direction: column;
     justify-content: space-between;
     width: 75%;
-    background-color: var(--clr-modal-background);
+    background-color: var(--clr-black);
     
     
 }
@@ -357,6 +358,13 @@ html{
     color: var(--clr-404-btn);
     font-size: 1.25rem;
     font-weight: 800;
+}
+
+#question{
+    color: var(--clr-text-);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 30px;
 }
 
 #progressBar{
