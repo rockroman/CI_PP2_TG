@@ -83,3 +83,16 @@ choices.forEach(choice =>{
         },1200)
     });
 });
+
+/**
+ * nextquestion button]
+ * functionality
+ */
+nextQuestion.addEventListener('click',function(){
+    setTimeout(function(){
+        nextQuestion.classList.remove('show');
+        getQuestion();
+    },800);
+});
+
+startQuiz();
