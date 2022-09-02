@@ -401,6 +401,11 @@ html{
     color: var(--clr-text-);
 }
 
+#footer-quiz{
+    align-self: center;
+    background: transparent;
+}
+
 
 
 
