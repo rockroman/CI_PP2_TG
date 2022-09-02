@@ -25,12 +25,20 @@ function startQuiz(){
     questionCounter=0;
     score=0;
     // populate array with questions from external js file
-    setOfQuestions=[...allQuestions]
+    setOfQuestions=[...allQuestions];
 }
 
 /**
  * getting new question
  */
 function getQuestion(){
+    if(setOfQuestions.length===0 || questionCounter >= maxQuestionNumber){
+        // end game
+        console.log(('THE END'));
+        return;
+    }
+    questionCounter++;
+    // updating progress bar
+    progressBarFull.style.width=`${(questionCounter/maxQuestionNumber) * 100}%`;
 
 }
