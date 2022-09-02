@@ -359,6 +359,12 @@ html{
     margin-top: .5px;
 }
 
+/* button container style */
+.container{
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 

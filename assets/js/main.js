@@ -79,12 +79,19 @@ try_Again.addEventListener('click',function(){
 })
 
 /**
- * add listener to stat modal button
+ * add listener to start modal button
  * so user can initiate the game
  */
 play_Btn.addEventListener('click',function(){
     start_Modal.setAttribute('class','hide');
     startGame();
+})
+
+/**
+ * user can proceed to quiz game
+ */
+play_Quiz.addEventListener('click',function(){
+    location.href='quiz.html'
 })
 
 /**
