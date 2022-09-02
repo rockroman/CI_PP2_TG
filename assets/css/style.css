@@ -120,7 +120,7 @@ footer a:hover{
     color:green;
 }
 
-/*                     modal screens style                  */
+/*--------------------------modal screen styles------------------------------*/
 
 .modal{
     border: .3px inset white;
@@ -248,7 +248,7 @@ footer a:hover{
     width:80% ;
 }
 
-/*             404 page styles                */
+/*--------------------------404 page styles------------------------------*/
 
 #container404{
     background-color: black;
@@ -298,29 +298,40 @@ footer a:hover{
     background-color: var(--clr-modal-background);
     
     
- }
+}
 
- #footer404,
+#footer404,
  .social-media{
     display: flex;
     align-items: center;
     
- }
+}
 
- .social-media{
+.social-media{
     width: 100%;
     justify-content: space-between;
     padding: 10px;
- }
+}
 
- .author{
+.author{
     width: 100%;
     padding: 10px;
     text-align: center;
     color: var(--clr-text-);
   
 
- }
+}
+
+/*--------------------------quiz game styles------------------------------*/
+html{
+    height:100%;
+}
+
+#body{
+    background: no-repeat center/cover url(../images/welcome_guitar-maxime-favier-unsplash.webp);
+    cursor: pointer;
+    height: 100vh;
+}
 
 
 
