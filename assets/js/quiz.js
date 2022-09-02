@@ -55,6 +55,17 @@ function getQuestion(){
     acceptAnswers=true;
 
 
-
-
 }
+
+/**
+ * Get users answer
+ */
+choices.forEach(choice =>{
+    choice.addEventListener('click', e =>{
+        if(!acceptAnswers)return;
+        acceptAnswers=false;
+        // recognize what was users choice
+        let selectedChoice=e.target;
+        let selectedAnswer=selectedChoice.dataset.number;
+    })
+})
