@@ -17,3 +17,20 @@ let questionCounter=0;
 let maxQuestionNumber=4;
 let currentQuestion={};
 let setOfQuestions=[];
+
+/**
+ * initialize quiz
+ */
+function startQuiz(){
+    questionCounter=0;
+    score=0;
+    // populate array with questions from external js file
+    setOfQuestions=[...allQuestions]
+}
+
+/**
+ * getting new question
+ */
+function getQuestion(){
+
+}
