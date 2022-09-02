@@ -325,7 +325,7 @@ footer a:hover{
 
 /*--------------------------quiz game styles------------------------------*/
 html{
-    height:100%;
+    height:100vh;
 }
 
 #body{
@@ -336,7 +336,7 @@ html{
 
 .main{
     border: 2px solid green;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -399,7 +399,6 @@ html{
 .next{
     background-color: var(--clr-btn-background);
     color: var(--clr-text-);
-
 }
 
 
