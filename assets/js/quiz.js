@@ -95,4 +95,9 @@ nextQuestion.addEventListener('click',function(){
     },800);
 });
 
+function incrementScore(){
+    score++;
+    userScore.textContent=score;
+}
+
 startQuiz();
