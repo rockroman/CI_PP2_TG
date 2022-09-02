@@ -67,5 +67,19 @@ choices.forEach(choice =>{
         // recognize what was users choice
         let selectedChoice=e.target;
         let selectedAnswer=selectedChoice.dataset.number;
-    })
-})
+        console.log(selectedAnswer);
+        console.log(currentQuestion.answer);
+
+        // check if answer is true or false
+        if(selectedAnswer==currentQuestion.answer){
+            console.log('correct');
+            incrementScore();
+        }
+        else{
+            console.log('wrong');
+        }
+        setTimeout(function(){
+            nextQuestion.classList.add('show');
+        },1200)
+    });
+});
