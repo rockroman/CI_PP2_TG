@@ -333,6 +333,34 @@ html{
     height: 100vh;
 }
 
+#quiz-stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.current-score{
+    color: var(--clr-404-btn);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+#progressBar{
+    width: 7rem;
+    height: 2rem;
+    border: .3rem solid greenyellow;
+}
+
+#progressBarFull{
+    height: 1.3rem;
+    background-color: #008000;
+    width: 0%;
+    margin-top: .5px;
+}
+
+
+
 
 
 /*                media queries                  */
