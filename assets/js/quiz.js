@@ -11,3 +11,9 @@ let nextQuestion=document.getElementById('next');
 /**
  * functionality variables
  */
+let acceptAnswers=false;
+let score=0;
+let questionCounter=0;
+let maxQuestionNumber=4;
+let currentQuestion={};
+let setOfQuestions=[];
