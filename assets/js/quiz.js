@@ -48,7 +48,11 @@ function getQuestion(){
     choices.forEach(choice=>{
         let number=choice.dataset.number;
         choice.textContent=currentQuestion['choice'+number];
-    })
+    });
+    // remove current question from array
+    setOfQuestions.splice(questIndex,1);
+    console.log(setOfQuestions);
+    acceptAnswers=true;
 
 
 
