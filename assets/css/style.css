@@ -418,12 +418,21 @@ html{
     background: transparent;
 }
 
-/* bootstrap button color classes */
+/* bootstrap button  classes */
 
 
 /* show element class */
 .show{
     display: block;
+}
+
+.wrong{
+    border: 2px solid var(--clr-target);
+}
+
+.correct{
+    border: 2px dotted var(--clr-404-btn);
+    background-color:var(--clr-404-btn) ;
 }
 
 
