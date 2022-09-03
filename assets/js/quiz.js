@@ -35,7 +35,8 @@ function startQuiz(){
 function getQuestion(){
     if(setOfQuestions.length===0 || questionCounter >= maxQuestionNumber){
         // end game
-        console.log(('THE END'));
+        nextQuestion.classList.add('show');
+        nextQuestion.textContent='END QUIZ';
         return;
     }
     questionCounter++;
