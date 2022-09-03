@@ -115,349 +115,349 @@ let allQuestions=[
         choice3:'Woodwinds',
         choice4:'Percussion',
         answer:1
-    },
+    }
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
-    {
-        question:'',
-        choice1:'',
-        choice2:'',
-        choice3:'',
-        choice4:'',
-        answer:
-    },
+    // {
+    //     question:'',
+    //     choice1:'',
+    //     choice2:'',
+    //     choice3:'',
+    //     choice4:'',
+    //     answer:
+    // },
 
     
 ]

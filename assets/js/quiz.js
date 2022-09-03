@@ -14,7 +14,7 @@ let nextQuestion=document.getElementById('next');
 let acceptAnswers=false;
 let score=0;
 let questionCounter=0;
-let maxQuestionNumber=4;
+let maxQuestionNumber=10;
 let currentQuestion={};
 let setOfQuestions=[];
 
@@ -26,6 +26,7 @@ function startQuiz(){
     score=0;
     // populate array with questions from external js file
     setOfQuestions=[...allQuestions];
+    getQuestion();
 }
 
 /**
