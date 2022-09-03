@@ -426,6 +426,16 @@ html{
     display: block;
 }
 
+
+/*--------------------------thank you form styles------------------------------*/
+
+#thank-you{
+    background-color: var(--clr-black);
+    border: 1px solid red;
+    
+}
+
+
 /*                media queries                  */
 
 @media screen and (min-width:480px){

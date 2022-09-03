@@ -17,7 +17,7 @@
 <body id="body">
     <!-- bootstarp container -->
     <main class="container-fluid main">
-        <div id="quiz-stats">
+        <!-- <div id="quiz-stats">
             <div id="progressBar">
                 <div id="progressBarFull">%</div>
             </div>
@@ -30,11 +30,25 @@
             <button data-number="3" type="button" class="answers choice-text btn p-3">choice1</button>
             <button data-number="4" type="button" class="answers choice-text btn p-3">choice1</button>
             <button type="button" class="next-question next btn  p-3" id="next">NEXT</button>
-        </div>
+        </div> -->
         <!-- thank you container -->
-        <div class="container" id="thank-you">
+        <div class="container-sm p-3" id="thank-you">
             <form id="thank-you-form">
-                
+                <div class="mb-3">
+                    <h3>THANK YOU FOR PLAYING</h3>
+                    <label for="name" class="form-label">Enter your Name</label>
+                    <input type="text" name="name" id="name" class="form-control" required>
+                    
+                    <label for="email" name="email" class="form-label" >Email address</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+
+                <div class="mb3">
+                    <textarea name="message" class="form-control" id="message"  rows="5" placeholder="Give us your feedback or any suggestion how we can improve the game"></textarea>
+                   
+                </div>
+                <input type="submit" value="SUBMIT" id="submit" class="btn-send">
+
             </form>
         </div>
         <footer id="footer-quiz">
