@@ -27,6 +27,7 @@ body{
     cursor: none;
     background-color: #0a0a0a;
     overflow-x: hidden;
+    overflow-y: hidden;
     
    
 }
@@ -336,7 +337,6 @@ html{
 }
 
 .main{
-    border: 2px solid green;
     height: 100vh;
     display: flex;
     flex-direction: column;
