@@ -435,6 +435,13 @@ html{
     background-color:var(--clr-404-btn) ;
 }
 
+/* remove bootstrap blue outline for buttons */
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+    color: white;
+  }
+
 
 /*--------------------------thank you form styles------------------------------*/
 
