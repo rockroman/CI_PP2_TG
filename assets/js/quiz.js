@@ -7,6 +7,7 @@ let choices=Array.from(document.getElementsByClassName('choice-text'));
 let progressBarFull=document.getElementById('progressBarFull');
 let userScore=document.getElementById('userScore');
 let nextQuestion=document.getElementById('next');
+let myButtons=document.querySelectorAll('.answers');
 
 /**
  * functionality variables
@@ -69,15 +70,25 @@ choices.forEach(choice =>{
         // recognize what was users choice
         let selectedChoice=e.target;
         let selectedAnswer=selectedChoice.dataset.number;
-        console.log(selectedAnswer);
-        console.log(currentQuestion.answer);
+        // console.log(selectedAnswer);
+        // console.log(currentQuestion.answer);
 
         // check if answer is true or false
         if(selectedAnswer==currentQuestion.answer){
             console.log('correct');
+            // give coresponding color to correct and wrong answers
+            for(let i=0;i < myButtons.length;i++){
+                myButtons[i].classList.add('wrong');
+            }
+            e.target.classList.add('correct');
             incrementScore();
         }
         else{
+            for(let i=0;i < myButtons.length;i++){
+                myButtons[i].classList.add('wrong');
+            }
+            myButtons[currentQuestion.answer-1].classList.add('correct');
+
             console.log('wrong');
         }
         setTimeout(function(){
