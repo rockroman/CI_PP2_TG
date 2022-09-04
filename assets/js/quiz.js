@@ -6,7 +6,7 @@ let question=document.getElementById('question');
 let choices=Array.from(document.getElementsByClassName('choice-text'));
 let progressBarFull=document.getElementById('progressBarFull');
 let userScore=document.getElementById('userScore');
-let nextQuestion=document.getElementById('next');
+let endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
 
 /**
@@ -39,9 +39,12 @@ function getQuestion(){
         myButtons[i].classList.remove('wrong','correct');
     }
     if(setOfQuestions.length===0 || questionCounter >= maxQuestionNumber){
+        setTimeout(function(){
+            endQuiz.classList.add('show');
+            },1000);
         // end game
-        nextQuestion.classList.add('show');
-        nextQuestion.textContent='END QUIZ';
+        endQuiz.classList.add('show');
+        endQuiz.textContent='END QUIZ';
         return;
     }
     questionCounter++;
@@ -96,19 +99,18 @@ choices.forEach(choice =>{
             console.log('wrong');
         }
         setTimeout(function(){
-            nextQuestion.classList.add('show');
-        },1200)
+            getQuestion();
+        },1500)
     });
 });
 
 /**
- * nextquestion button]
+ * endQuiz button]
  * functionality
  */
-nextQuestion.addEventListener('click',function(){
+endQuiz.addEventListener('click',function(){
     setTimeout(function(){
-        nextQuestion.classList.remove('show');
-        getQuestion();
+       location.href='../index.html'
     },800);
 });
 
