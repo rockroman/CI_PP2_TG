@@ -355,9 +355,13 @@ html{
 }
 
 .current-score{
-    color: var(--clr-404-btn);
+    color: var(--clr-text-);
     font-size: 1.25rem;
     font-weight: 800;
+}
+
+#userScore{
+    color: var(--clr-404-btn);
 }
 
 #question{
@@ -370,12 +374,12 @@ html{
 #progressBar{
     width: 7rem;
     height: 2rem;
-    border: .3rem solid greenyellow;
+    border: .3rem solid var(--clr-text-);
 }
 
 #progressBarFull{
     height: 1.3rem;
-    background-color: #008000;
+    background-color:var(--clr-modal-buttons);
     width: 0%;
     margin-top: .5px;
 }
