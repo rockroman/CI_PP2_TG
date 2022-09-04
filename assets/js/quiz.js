@@ -34,6 +34,10 @@ function startQuiz(){
  * getting new question
  */
 function getQuestion(){
+    // clear button colors  with new question
+    for(let i=0;i<myButtons.length;i++){
+        myButtons[i].classList.remove('wrong','correct');
+    }
     if(setOfQuestions.length===0 || questionCounter >= maxQuestionNumber){
         // end game
         nextQuestion.classList.add('show');
