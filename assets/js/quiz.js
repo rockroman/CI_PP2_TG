@@ -8,6 +8,8 @@ let progressBarFull=document.getElementById('progressBarFull');
 let userScore=document.getElementById('userScore');
 let endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
+let thankYouScreen=document.getElementById('thank-you');
+let againBtn=document.getElementById('play-again');
 
 /**
  * functionality variables
@@ -110,7 +112,11 @@ choices.forEach(choice =>{
  */
 endQuiz.addEventListener('click',function(){
     setTimeout(function(){
-       location.href='../index.html'
+        document.getElementById('quiz-stats').style.display='none';
+        question.style.display='none';
+        document.getElementById('button-group').style.display='none';
+        thankYouScreen.classList.add('show');
+       
     },800);
 });
 
