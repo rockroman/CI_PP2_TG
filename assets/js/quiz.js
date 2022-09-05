@@ -120,7 +120,7 @@ endQuiz.addEventListener('click',function(){
         document.getElementById('quiz-stats').style.display='none';
         question.style.display='none';
         document.getElementById('button-group').style.display='none';
-        thankYouScreen.classList.add('show');
+        thankYouScreen.style.display='block';
        
     },800);
 });

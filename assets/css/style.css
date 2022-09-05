@@ -383,7 +383,7 @@ html{
     color: var(--clr-text-);
     font-size: 1.25rem;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 20px 0 20px 0;
 }
 
 #progressBar{
@@ -420,6 +420,10 @@ html{
     font-weight: 500;
     border: 1px solid var(--clr-text-);
  
+}
+
+.btn-group{
+    margin-bottom: 15px;
 }
 
 .choice-text,
