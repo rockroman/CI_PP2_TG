@@ -468,11 +468,15 @@ html{
 /*--------------------------thank you form styles------------------------------*/
 
 #thank-you{
-    background:;
+    background:center center/cover no-repeat url(../images/thank-you2-jeremy-allouche-unsplash.webp);
     background-color: var(--clr-black);
     max-width: 800px;
     
     
+}
+
+.thank-you{
+    display: none;
 }
 
 h3,h4{
@@ -488,6 +492,33 @@ h3,h4{
     margin-top: 15px;
     background: linear-gradient(12deg, black, transparent);
 }
+
+.btn-success{
+    width: 40%;
+    padding: 5px;
+    background-color:var(--clr-404-btn);
+    font-weight: 700;
+}
+
+#again{
+    width: 40%;
+    background-color: var(--clr-btn-background);
+    color: var(--clr-text-);
+}
+
+#footer-form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    margin: auto;
+
+}
+
+#final-score{
+    color:var(--clr-404-btn);
+ }
 
 
 
