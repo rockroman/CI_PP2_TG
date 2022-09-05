@@ -106,6 +106,11 @@ choices.forEach(choice =>{
     });
 });
 
+function incrementScore(){
+    score++;
+    userScore.textContent=score;
+}
+
 /**
  * endQuiz button]
  * functionality
@@ -120,9 +125,10 @@ endQuiz.addEventListener('click',function(){
     },800);
 });
 
-function incrementScore(){
-    score++;
-    userScore.textContent=score;
-}
+againBtn.addEventListener('click',function(){
+    location.href='index.html'
+})
+
+
 
 startQuiz();
