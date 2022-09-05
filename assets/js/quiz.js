@@ -125,9 +125,7 @@ endQuiz.addEventListener('click',function(){
     },800);
 });
 
-againBtn.addEventListener('click',function(){
-    location.href='index.html'
-})
+
 
 
 
