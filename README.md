@@ -3,7 +3,7 @@
 
 # PROJECT UNDER DEVELOPMENT
 
-![Mockup image](docs/am-i-responsive-img.png)
+![Mockup image](/assets/docs/im-i-responsive-Total-(1).webp)
 
 [TOTAL GUITAR>>>Live webpage](https://rockroman.github.io/CI_PP2_TG/)
 
@@ -51,6 +51,12 @@
 <hr>
 
 ## Introduction
+
+Total Guitar is small interesting two part javascript game,
+that brings together reaction and knowledge game based on world of guitar and Rock n' roll.
+With fun fast and interesting game concept users will be taken into the world of guitar.
+Targeted user is anyone with interest in the guitar  instrument and highlights in history related to
+it.
 
 
 
