@@ -72,7 +72,7 @@ header{
 
 }
 
-#hit-detection{
+.hit-detection{
     color: var(--clr-404-btn);
     font-weight: 900;
     display: none;

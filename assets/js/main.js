@@ -11,6 +11,7 @@ let next_Btn=document.getElementById('next');
 let play_Btn=document.getElementById('play');
 let try_Again=document.getElementById('try-again');
 let play_Quiz=document.getElementById('play-quiz');
+let hitDetector=document.querySelector('.hit-detection');
 
 /**
  * game screen variables
@@ -139,6 +140,7 @@ function shootingCursor(){
 gameField.addEventListener('click',(e)=>{
     if(e.target===targetGuitar){
         score +=10;
+        hitDetector.classList.add('show')
         my_score.textContent=score;
         console.log('yes');
     }
@@ -150,6 +152,10 @@ gameField.addEventListener('click',(e)=>{
     // putting score and tries to matching array as a first element
     currentScore.unshift(score);
     currentTries.unshift(tries);
+    // remove hit detection text
+    setTimeout(function(){
+        hitDetector.classList.remove('show');
+    },400)
 });
 
 /**
