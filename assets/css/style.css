@@ -137,6 +137,10 @@ footer a:hover{
     color:green;
 }
 
+#git-dummy{
+    display: none;
+}
+
 /*--------------------------modal screen styles------------------------------*/
 
 .modal{
@@ -464,13 +468,30 @@ html{
 /*--------------------------thank you form styles------------------------------*/
 
 #thank-you{
+    background:;
     background-color: var(--clr-black);
-    border: 1px solid red;
+    max-width: 800px;
+    
     
 }
 
+h3,h4{
+    text-align:center ; 
+    color: white;
+    background: linear-gradient(45deg, black, transparent);
+}
 
-/*                media queries                  */
+.contact-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 15px;
+    background: linear-gradient(12deg, black, transparent);
+}
+
+
+
+/*--------------------------media queries------------------------------*/
 
 @media screen and (min-width:480px){
     /* .modal, .game-over{
@@ -568,25 +589,3 @@ html{
 
 } 
 
-/* new modal try */
-/* 
-#test-modal {
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2000;
-    height: 50vh;
-    width: 50vw;
-    background-color: white;     
- }
- #inner-modal{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
- } */
- /* end of new modal */
