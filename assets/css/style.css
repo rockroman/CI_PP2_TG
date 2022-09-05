@@ -72,6 +72,12 @@ header{
 
 }
 
+#hit-detection{
+    color: var(--clr-404-btn);
+    font-weight: 900;
+    display: none;
+}
+
 #game-field{
     width: 100vw;
     height: 90vh;
@@ -193,12 +199,12 @@ footer a:hover{
     z-index: 30;
     /* display not in original code so remove */
     /* display: none; */
-    height: 75vh;
+    height: 80vh;
 }
 
 #start-game-modal{
     justify-content: center;
-    height: 75vh;
+    height: 80vh;
     gap: 5%;
   
   
