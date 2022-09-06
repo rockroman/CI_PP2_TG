@@ -54,7 +54,7 @@ myInstrument.setAttribute('class','my-inst');
   */
  let targetGuitar=document.createElement('img');
  targetGuitar.setAttribute('id','target-guitar');
- targetGuitar.setAttribute('class','guitar');
+ targetGuitar.setAttribute('class','guitar')
  targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
 
 /**
@@ -224,9 +224,10 @@ gameField.addEventListener('click',function(){
 
 
 
- function startGame(){
+function startGame(){
     score=0;
     tries=5;
+    document.body.style.cursor='none'
     myCursor.style.display='block'
     shootingCursor();
     getScore();

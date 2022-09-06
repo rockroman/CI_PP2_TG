@@ -28,7 +28,6 @@ body{
     justify-content: center;
     align-items: center;
     background:#b0a3a3 no-repeat center/cover url(../images/game-stage-big-ashok-chakravarthi-unsplash.jpg);
-    cursor: none;
     position: relative;
     background-color: #0a0a0a;
     overflow-x: hidden;
@@ -115,8 +114,12 @@ header{
     height: 50px;
     width: 30px;
     position: absolute;
-    border: 1px solid ;
+   
     /* display: none; */
+}
+
+.guitar{
+    border:2px solid var(--clr-target);
 }
 
 footer{
@@ -483,8 +486,13 @@ html{
 
 h3,h4{
     text-align:center ; 
-    color: white;
+    color:var(--clr-text-);
     background: linear-gradient(45deg, black, transparent);
+}
+
+label{
+    color: var(--clr-text-);
+    background:linear-gradient(230deg, black, #0000009c); ;
 }
 
 .contact-btn{
