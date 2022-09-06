@@ -12,6 +12,7 @@ let play_Btn=document.getElementById('play');
 let try_Again=document.getElementById('try-again');
 let play_Quiz=document.getElementById('play-quiz');
 let hitDetector=document.querySelector('.hit-detection');
+let finalScore=document.querySelector('#final-score');
 
 /**
  * game screen variables
@@ -174,6 +175,7 @@ gameField.addEventListener('click',(e)=>{
             gameField.style.pointerEvents='none';
             transit_Screen.style.display='flex';
         }else if(a===0){
+            finalScore.textContent=currentScore[0];
             gameOver();
         }
 
