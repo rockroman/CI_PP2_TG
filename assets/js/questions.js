@@ -115,115 +115,106 @@ let allQuestions=[
         choice3:'Woodwinds',
         choice4:'Percussion',
         answer:1
-    }
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'This guitar hero died in 1970?',
+        choice1:'Eric Clapton',
+        choice2:'Jimi Hendrix',
+        choice3:'Randy Rhoads',
+        choice4:'Pete Townshend',
+        answer:2
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Two-handed or double tap is the trademark of this guitarist. His name is',
+        choice1:'Yngwie Malmsteem',
+        choice2:'Steve Vai',
+        choice3:'Eddie Van Halen',
+        choice4:'Kirk Hammet',
+        answer:3
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Slowhand is his nickname but also one of his solo albums. Who is this legend?',
+        choice1:'Chuck Berry',
+        choice2:'Eric Clapton',
+        choice3:'Buddy Guy',
+        choice4:'Mark Knopfler',
+        answer:2
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:"Who didn't play with Ozzy Osbourne on his solo recordings?",
+        choice1:'Glen Buxton',
+        choice2:'Jake E. Lee',
+        choice3:'Zakk Wylde',
+        choice4:'Randy Rhoads',
+        answer:1
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'His essential recording is "Maggot Brain". Who is this great player?',
+        choice1:'Ali Farka Toure',
+        choice2:'Vernon Reid',
+        choice3:'Eddie Hazel',
+        choice4:'Robert Randolph',
+        answer:3
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:' Greatest slide guitar player of all time. His name is:',
+        choice1:'Santana',
+        choice2:'Ry Cooder',
+        choice3:'Derek Trucks',
+        choice4:'Duane Allman',
+        answer:4
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Where did the guitar originate?',
+        choice1:'Portugal',
+        choice2:'Greece',
+        choice3:'Spain',
+        choice4:'Turkey',
+        answer:3
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'These are the steel pieces that you spread your fingers over when you play?',
+        choice1:'Frets',
+        choice2:'Sound Hole',
+        choice3:'Mahogany',
+        choice4:'Bridge',
+        answer:1
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'In an electric guitar these are the "microphones"?',
+        choice1:'Cans',
+        choice2:'Pickups',
+        choice3:'Potentiometers',
+        choice4:'Bridge',
+        answer:2
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Which of the woods listed is considered as suitable for a fingerboard?',
+        choice1:'Gidgee.',
+        choice2:'Spruce',
+        choice3:'Balsa.',
+        choice4:'Tallowood.',
+        answer:1
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Which animal body part is not the name of a guitar part?',
+        choice1:'Horn',
+        choice2:'Head',
+        choice3:'Neck',
+        choice4:'Foot',
+        answer:4
+    },
 
     // {
     //     question:'',
