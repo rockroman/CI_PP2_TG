@@ -99,6 +99,7 @@ header{
     transform: translate(-50%,-50%);
     pointer-events: none;
     z-index: 20;
+    display: none;
 }
 /* add image to click position on screen */
 #holeImg{

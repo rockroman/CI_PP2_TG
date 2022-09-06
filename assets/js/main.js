@@ -3,10 +3,10 @@
 /**
  * pop up modal variables
  */
-let welcome_Screen=document.getElementById('welcome-screen');
-let start_Modal=document.getElementById("start-game-modal");
-let transit_Screen=document.getElementById('transition-screen');
-let game_Over= document.getElementById('game-over');
+const welcome_Screen=document.getElementById('welcome-screen');
+const start_Modal=document.getElementById("start-game-modal");
+const transit_Screen=document.getElementById('transition-screen');
+let game_Over= document.querySelector('#game-over');
 let next_Btn=document.getElementById('next');
 let play_Btn=document.getElementById('play');
 let try_Again=document.getElementById('try-again');
@@ -54,6 +54,7 @@ myInstrument.setAttribute('class','my-inst');
   */
  let targetGuitar=document.createElement('img');
  targetGuitar.setAttribute('id','target-guitar');
+ targetGuitar.setAttribute('class','guitar');
  targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
 
 /**
@@ -226,6 +227,7 @@ gameField.addEventListener('click',function(){
  function startGame(){
     score=0;
     tries=5;
+    myCursor.style.display='block'
     shootingCursor();
     getScore();
     // make variables to store interval id's so the interval can be cleared
