@@ -9,7 +9,8 @@ let userScore=document.getElementById('userScore');
 let endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
 let thankYouScreen=document.getElementById('thank-you');
-let againBtn=document.getElementById('play-again');
+let againBtn=document.getElementById('again');
+let quizScore=document.querySelector('#quizScore');
 
 /**
  * functionality variables
@@ -30,6 +31,9 @@ function startQuiz(){
     // populate array with questions from external js file
     setOfQuestions=[...allQuestions];
     getQuestion();
+    // againBtn.addEventListener('click',function(){
+    //     location.href='index.html'
+    // })
 }
 
 /**
@@ -112,7 +116,7 @@ function incrementScore(){
 }
 
 /**
- * endQuiz button]
+ * endQuiz button
  * functionality
  */
 endQuiz.addEventListener('click',function(){
@@ -121,6 +125,11 @@ endQuiz.addEventListener('click',function(){
         question.style.display='none';
         document.getElementById('button-group').style.display='none';
         thankYouScreen.style.display='block';
+        quizScore.textContent=userScore.textContent;
+        againBtn.addEventListener('click',function(){
+            location.href='index.html'
+        })
+      
        
     },800);
 });
