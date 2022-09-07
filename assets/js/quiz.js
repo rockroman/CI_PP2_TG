@@ -9,6 +9,7 @@ let userScore=document.getElementById('userScore');
 let endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
 let thankYouScreen=document.getElementById('thank-you');
+let thankYouForm=document.querySelector('#thank-you-form');
 let againBtn=document.getElementById('again');
 let quizScore=document.querySelector('#quizScore');
 
@@ -139,3 +140,27 @@ endQuiz.addEventListener('click',function(){
 
 
 startQuiz();
+
+/**
+ * set up email js service
+ */
+
+ thankYouForm.addEventListener("submit", function (event) {
+   event.preventDefault();
+
+   const serviceID = "service_uklo3ca";
+   const templateID = "template_eiz3yrh";
+
+   // send the email here
+   emailjs.sendForm('service_uklo3ca','template_eiz3yrh' , this).then(
+     (response) => {
+       console.log("SUCCESS!", response.status, response.text);
+       alert("SUCCESS!");
+     },
+     (error) => {
+       console.log("FAILED...", error);
+       alert("FAILED...", error);
+     }
+   );
+ });
+ 

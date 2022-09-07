@@ -67,5 +67,20 @@
     <script defer src="https://kit.fontawesome.com/a5d485eba2.js" crossorigin="anonymous"></script> 
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/quiz.js"></script>
+    <!-- emailJS -->
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">      (function () {
+        emailjs.init("8BNEosXr4MeYw-4I0");
+      })();
+    </script>
+    <script>
+        emailjs.sendForm("8BNEosXr4MeYw-4I0", "template_eiz3yrh", "#thank-you-form")
+        </script>
 </body>
 </html> 
