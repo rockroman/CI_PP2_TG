@@ -129,7 +129,6 @@ footer{
     width: 40%;
     display: flex;
     justify-content: space-around;
-    /* margin-bottom: 20px; */
     background-color: #3b3939;
 }
 
@@ -152,7 +151,7 @@ footer a:hover{
 
 .modal{
     border: .3px inset white;
-    background-color: rgb(58, 50, 50);
+    background-color:var(--clr-black);
     padding: 2%;
     width: 85vw;
     height: 80vh;
@@ -216,7 +215,7 @@ footer a:hover{
 #start-game-modal{
     justify-content: center;
     height: 80vh;
-    gap: 5%;
+    /* gap: 5%; */
   
   
 }
@@ -422,6 +421,11 @@ html{
 
 }
 
+.answers:hover{
+    color: white;
+    transform: scale(1.03);
+}
+
 .btn{
     width: 65vw;
     font-size: 1rem;
@@ -472,6 +476,7 @@ html{
     box-shadow: none;
     color: white;
   }
+
 
 
 /*--------------------------thank you form styles------------------------------*/

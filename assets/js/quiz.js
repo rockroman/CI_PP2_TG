@@ -12,6 +12,7 @@ let thankYouScreen=document.getElementById('thank-you');
 let thankYouForm=document.querySelector('#thank-you-form');
 let againBtn=document.getElementById('again');
 let quizScore=document.querySelector('#quizScore');
+let  submitBtn=document.querySelector('#submit');
 
 /**
  * functionality variables
@@ -32,9 +33,7 @@ function startQuiz(){
     // populate array with questions from external js file
     setOfQuestions=[...allQuestions];
     getQuestion();
-    // againBtn.addEventListener('click',function(){
-    //     location.href='index.html'
-    // })
+   
 }
 
 /**
@@ -84,8 +83,7 @@ choices.forEach(choice =>{
         // recognize what was users choice
         let selectedChoice=e.target;
         let selectedAnswer=selectedChoice.dataset.number;
-        // console.log(selectedAnswer);
-        // console.log(currentQuestion.answer);
+       
 
         // check if answer is true or false
         if(selectedAnswer==currentQuestion.answer){
@@ -133,6 +131,8 @@ endQuiz.addEventListener('click',function(){
       
        
     },800);
+
+ 
 });
 
 
@@ -144,17 +144,36 @@ startQuiz();
 /**
  * set up email js service
  */
+// new
 
- thankYouForm.addEventListener("submit", function (event) {
+   
+
+   
+    
+
+
+
+
+// end new
+
+
+
+
+
+
+
+
+ submitBtn.addEventListener("click", function (event) {
    event.preventDefault();
-
-   const serviceID = "service_uklo3ca";
+  
+   const serviceID = 'service_uklo3ca';
    const templateID = "template_eiz3yrh";
 
    // send the email here
-   emailjs.sendForm('service_uklo3ca','template_eiz3yrh' , this).then(
+   emailjs.sendForm('serviceID','templateID' , thankYouForm).then(
      (response) => {
        console.log("SUCCESS!", response.status, response.text);
+       return;
        alert("SUCCESS!");
      },
      (error) => {
@@ -163,4 +182,12 @@ startQuiz();
      }
    );
  });
+
+ submitBtn.addEventListener('click',function(){
+    
+
+ });
+
+
+
  

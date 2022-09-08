@@ -26,7 +26,7 @@ let finalScore=document.querySelector('#final-score');
  let tries=5;
  let currentScore=[];
  let currentTries=[];
-//  let targetGuitar=document.getElementById('target-guitar');
+
 
 
 // ccode for input mobile keyboard not distortin layout
@@ -182,8 +182,6 @@ gameField.addEventListener('click',(e)=>{
       
     });
 }
-
-
 
 /**
  * ending a game
