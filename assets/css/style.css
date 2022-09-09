@@ -42,12 +42,6 @@ body{
    
 }
 
-/* body::before{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-} */
-
 h1{
     color: var(--clr-text-);
     text-align: center;
@@ -56,7 +50,6 @@ h1{
     font-weight: 800;
     text-transform: uppercase;
     background-color: #3b3939;
-
 
 }
 
@@ -68,7 +61,6 @@ header{
     height: 2rem;
     color:var(--clr-text-);
     font-size: 1.2rem;
-    /* margin-top: 20px; */
     padding: 10px 2% 0 2%;
     width: 100%;
 
@@ -103,6 +95,7 @@ header{
     z-index: 20;
     display: none;
 }
+
 /* add image to click position on screen */
 #holeImg{
     width: 25px;
@@ -118,7 +111,6 @@ header{
     width: 30px;
     position: absolute;
    
-    /* display: none; */
 }
 
 .guitar{
@@ -207,17 +199,13 @@ footer a:hover{
 
 #welcome-screen{
     z-index: 30;
-    /* display not in original code so remove */
-    /* display: none; */
     height: 80vh;
 }
 
 #start-game-modal{
     justify-content: center;
     height: 80vh;
-    /* gap: 5%; */
-  
-  
+     
 }
 
 #target-img{
@@ -227,8 +215,6 @@ footer a:hover{
     margin: 5px;
      
 }
-
-
 
 .hide{
     display: none;
@@ -250,8 +236,7 @@ footer a:hover{
     top: 0;
     margin: auto; 
     z-index: 20;
-      /* display not in original code so remove */
-     display: none;
+    display: none;
     
 
 }
@@ -264,7 +249,6 @@ footer a:hover{
     background-color: black;
     justify-content: center;
     gap: 15%;
-    /* this display was in original code */
     display: none;   
     height: 520px;
    
@@ -484,8 +468,7 @@ html{
 #thank-you{
     background:center center/cover no-repeat url(../images/thank-you2-jeremy-allouche-unsplash.webp);
     background-color: var(--clr-black);
-    max-width: 800px;
-    
+    max-width: 800px;   
     
 }
 
@@ -552,9 +535,7 @@ label{
 /*--------------------------media queries------------------------------*/
 
 @media screen and (min-width:480px){
-    /* .modal, .game-over{
-        width: 300px;
-    } */
+
     .screen-description{
         font-size:1.8rem ;
     }
@@ -640,10 +621,7 @@ label{
    }
 
 
-
 }
-
-
 
 @media screen and (min-width:920px){
     .modal{
