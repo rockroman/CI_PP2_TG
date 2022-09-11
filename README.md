@@ -214,16 +214,19 @@ games.
 
 ### Frameworks Libraries & Programs Used
 - [Gitpod](https://www.gitpod.io/)
-- GitHub
-- Git
-- Tinypng
-- Font Awesome
-- Balsamiq
-- Coolors
-- Google Fonts
-- looka.com
-- Jpg. to Webp converter
-- Grammarly
+- [GitHub](https://github.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Git](https://git-scm.com/)
+- [Tiny.png](https://tinypng.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Coolors.co](https://coolors.co) 
+- [Google Fonts](https://fonts.google.com/)
+- [JShint](https://jshint.com/)
+- [Jpg. to Webp converter](https://convertio.co/jpg-webp/)
+- [Am I Responsive](http://ami.responsivedesign.is/)
+- [EmailJS](https://www.emailjs.com) 
+- [Favicon.io](https://favicon.io)
 
 [Back to top &uarr;](#total-guitar)
 
@@ -231,6 +234,42 @@ games.
 <hr> 
 
 ### Existing Features
+
+### Favicon
+- small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
+
+![Favicon](assets/images/favicon-32x32.png)
+
+### Navigation
+- game modals that guides user in his progress trough the project
+
+![]()
+![]()
+![]()
+
+### Welcome pop up modal
+- presents project to a user
+
+![]()
+
+### Rules and start game modal
+- Introduces rules of the game to a user and user can initiate the game 
+with a play button
+
+![]()
+
+### 1st game main screen
+- screen where user is playing his first game
+
+![]()
+
+### Game over screen
+- gives feedback to user that game is over and provides the score and option to play again
+
+![]()
+
+
+
 
 
 
