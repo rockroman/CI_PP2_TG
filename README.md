@@ -167,16 +167,39 @@ guitar based background keeping the color pallet simple and in line with project
 <img src="docs/wireframes/quiz-desk-wireframe.png">
 </details>
 
+<hr>
+
+### Colour Scheme
 
 
-### Colour
+- Color Pallete was custom made on [Coolors.co](https://coolors.co) 
+
+ <img src="docs/color-pallete.png">
 
 
 ### Fonts
 
+- Google Fonts were implemented on the website.I used  'Amaranth' font that has slight curves and make's the lettering eye-catching.this font family is Thick Sans font which has tidy letter and Smooth finishes.
+
+
 
 
 ### Structure
+
+- Structure implemented for this project is user friendly,easy to navigate with 2 separate screens for each type of the 
+game with inteligently designed pop up modals that are guiding the user and  offering feedback while progressing trough 
+games.
+
+- project consists of folowing screens:
+  
+  - Welcome screen with pop up modal that welcomes user and presents the content of a Project
+  - 2nd pop up modal with first game rules and button that initiates the game
+  - First game main screen with game field ,target and custome made aiming cursor
+  - game over modal or transition modal depending on outcome of the game one will direct user to a 2nd game while other 
+  will greet user and offer a chance to play again
+  - main 2nd game screen that is presented to user with buttons offering answers to a question ,question himself and 
+  quiz stats section with progress bar and points counter
+  - Thank you form that wich alouds user to give feedback to a developer 
 
  
 
@@ -190,7 +213,7 @@ guitar based background keeping the color pallet simple and in line with project
 - Javascript
 
 ### Frameworks Libraries & Programs Used
-- Gitpod
+- [Gitpod](https://www.gitpod.io/)
 - GitHub
 - Git
 - Tinypng
