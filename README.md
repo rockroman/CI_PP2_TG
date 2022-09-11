@@ -143,15 +143,30 @@ Goal of this project is creating interactive game with clear content ,that is us
 
 ### Chosen design
 
+For this project I decided to go with musical theme background with stage and
+guitar based background keeping the color pallet simple and in line with project concept and content.  
+
 
 
 ### Wireframes
 
 ***
 
-- [Mobile-wireframes(pdf)](docs/wireframes/SO_mobile_wireframe.pdf)
-- [Tablet-wireframes(pdf)](docs/wireframes/SO_tablet_wireframe.pdf)
-- [Desktop-wireframes(pdf)](docs/wireframes/SO_desktop_wireframe.pdf)
+<details><summary>Mobile-wireframes</summary>
+<img src="docs/wireframes/mobile-1stgame.png">
+<img src="docs/wireframes/mobile-quiz-wireframe.png">
+</details>
+
+<details><summary>Tablet-wireframes</summary>
+<img src="docs/wireframes/tablet-1st-game.png">
+<img src="docs/wireframes/quiz-tablet-wireframe.png">
+</details>
+
+<details><summary>Desktop-wireframes</summary>
+<img src="docs/wireframes/desktop-1stgame-wireframe.png">
+<img src="docs/wireframes/quiz-desk-wireframe.png">
+</details>
+
 
 
 ### Colour
