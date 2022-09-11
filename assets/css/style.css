@@ -531,18 +531,33 @@ label{
     color:var(--clr-404-btn);
 }
 
-#thnx-message{
+.thnx-message{
     background-color: var(--clr-modal-background);
-    border: 2px solid red;
+    border: 2px solid var(--clr-btn-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     max-width: 800px;
-   
-    padding: 120px;
+    height: 20vh;
     position: absolute;
     z-index: 2000;
-    top: 50%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: auto;
+    
+}
+
+#thnx-message{
+    /* display:none; */
+}
+
+h5{
+    font-size: 2rem;
+    color: var(--clr-text-);
+    
 }
 
 

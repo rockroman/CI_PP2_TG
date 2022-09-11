@@ -36,7 +36,12 @@ thankYouForm.addEventListener("submit", function (event) {
     emailjs.sendForm('service_uklo3ca', 'template_eiz3yrh', this)
         .then(() => {
             submitBtn.value = "Send";
-            alert('success');
+            // alert('success');
+            console.log('succes');
+            submitBtn.setAttribute('disabled',true);
+            document.querySelector('#thnx-message').style.display="block"
+            thankYouForm.reset();
+
 
         }, (err) => {
            console.log('error');
@@ -44,10 +49,11 @@ thankYouForm.addEventListener("submit", function (event) {
         });
 });
 
-submitBtn.addEventListener('click',function(){
-    setTimeout(function(){
-        
-        thankYouForm.reset();
+// submitBtn.addEventListener('click',function(){
+//     setTimeout(function(){
+//         document.querySelector('#thnx-message').style.display="block";
+//         thankYouForm.reset();
+//         submitBtn.setAttribute('disabled',true);
 
-    },1500)   
-});
+//     },1500)   
+// });
