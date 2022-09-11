@@ -531,6 +531,20 @@ label{
     color:var(--clr-404-btn);
 }
 
+#thnx-message{
+    background-color: var(--clr-modal-background);
+    border: 2px solid red;
+    text-align: center;
+    max-width: 800px;
+   
+    padding: 120px;
+    position: absolute;
+    z-index: 2000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /*--------------------------media queries------------------------------*/
 

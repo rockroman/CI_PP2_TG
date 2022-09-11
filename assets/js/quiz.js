@@ -163,30 +163,30 @@ startQuiz();
 
 
 
- submitBtn.addEventListener("click", function (event) {
-   event.preventDefault();
+//  submitBtn.addEventListener("click", function (event) {
+//    event.preventDefault();
   
-   const serviceID = 'service_uklo3ca';
-   const templateID = "template_eiz3yrh";
+//    const serviceID = 'service_uklo3ca';
+//    const templateID = "template_eiz3yrh";
 
-   // send the email here
-   emailjs.sendForm('serviceID','templateID' , thankYouForm).then(
-     (response) => {
-       console.log("SUCCESS!", response.status, response.text);
-       return;
-       alert("SUCCESS!");
-     },
-     (error) => {
-       console.log("FAILED...", error);
-       alert("FAILED...", error);
-     }
-   );
- });
+//    // send the email here
+//    emailjs.sendForm('serviceID','templateID' , thankYouForm).then(
+//      (response) => {
+//        console.log("SUCCESS!", response.status, response.text);
+//        return;
+//        alert("SUCCESS!");
+//      },
+//      (error) => {
+//        console.log("FAILED...", error);
+//        alert("FAILED...", error);
+//      }
+//    );
+//  });
 
- submitBtn.addEventListener('click',function(){
+//  submitBtn.addEventListener('click',function(){
     
 
- });
+//  });
 
 
 
