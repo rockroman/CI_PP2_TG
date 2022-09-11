@@ -92,18 +92,41 @@ Goal of this project is creating interactive game with clear content ,that is us
 
 ### Ideal User
 
--
+- Anyone with musical interest
+- People who want's to be entertained and challenged at the same time
+- Any user who besides intersting and fun contents has desire to learn something
 
 
 
 ### User Requirements and Expectations
 
+- Simple and appealing design
+- Clear and set rules
+- User friendly navigation
+- Responsiveness on range of devices
+- Notifications and feedback to be clear and brief
+- A way to get in touch with developer
+- Having an option to leave feedback
+- Meaningfull and logical presentation of project's content 
+
+
 
 
 ### User Stories
 
-####  New(First-time) User
-0. 
+####  App User
+0. I want to understand what the game is about
+1. I want to game rules to be easy to understand 
+2. I want to know the controls in a game
+3. I want to game to be fun and interactive
+4. I want to be able to see the progress im making troughout the game
+5. I want to game to be challenging
+6. I want to be able to get in touch with developer 
+7. I want to be able to leave feedback
+8. I want to game to be responsive no matter what device is played on.
+
+
+
 
 #### Returning User
 7. 
