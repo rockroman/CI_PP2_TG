@@ -12,7 +12,7 @@
 0. [Introduction](#introduction)
 1. [Project Goals](#project-goals)
     - [User Goals](#user-goals)
-    - [Company Goals](#company-goals)
+    - [Site Owner Goals](#company-goals)
 2. [User Experience(UX)](#user-experienceux)
     - [Ideal User](#ideal-user)
     - [User Requirements and Expectations](#user-requirements-and-expectations)
@@ -56,17 +56,32 @@ Total Guitar is small interesting two part javascript game,
 that brings together reaction and knowledge game based on world of guitar and Rock n' roll.
 With fun fast and interesting game concept users will be taken into the world of guitar.
 Targeted user is anyone with interest in the guitar  instrument and highlights in history related to
-it.
+it.Project is developedas part of  five milestone projects for acquiring the "Diploma In Software Development" with Code institute.
+Requirements of this project is showing the use of Javascript and showcasing interactivness of web-site or web application.
 
 
 
 ## Project Goals 
-***
+
+Goal of this project is creating interactive game with clear content ,that is user friendly, uniqe, fun and challenging.
 
 ### User Goals
 
+- Pick up fun interactive and fun game to play
+- To engage and be challenged in different type of skills
+- Be able to learn something while playing. 
 
-### Company Goals
+
+### Site Owner Goals
+
+- Develop uniqe and interesting game
+- Provide fun fast and interactive content
+- Incorporate fun and callenge
+- Make design simple and user-friendly
+- Make game responsive and accesible
+- Give clear feedback to User
+
+
 
 
 
@@ -76,6 +91,8 @@ it.
 <hr>
 
 ### Ideal User
+
+-
 
 
 
