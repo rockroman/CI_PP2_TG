@@ -363,6 +363,7 @@ html{
     color: var(--clr-text-);
     font-size: 1.25rem;
     font-weight: 800;
+    background:linear-gradient(179deg, black, #120f0f);
 }
 
 #userScore{
