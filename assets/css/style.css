@@ -543,10 +543,10 @@ label{
     height: 20vh;
     position: absolute;
     z-index: 2000;
-    top: 12%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: auto;
+  
     
 }
 
