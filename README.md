@@ -3,7 +3,7 @@
 
 # PROJECT UNDER DEVELOPMENT
 
-![Mockup image](/assets/docs/im-i-responsive-Total-(1).webp)
+![Mockup image](docs/im-i-responsive-Total-(1).webp)
 
 [TOTAL GUITAR>>>Live webpage](https://rockroman.github.io/CI_PP2_TG/)
 
@@ -289,20 +289,39 @@ Testing was taken during entire development process utilizing Chrome developer t
 W3C Markup Service was used to validate the HTML of the website and all code passed with no errors to show. 
 
 <details><summary>Index.html</summary>
+<img src="docs/validation/home-page.png">
+</details>
 
+<details><summary>quiz.html</summary>
+<img src="docs/validation/quiz-html.png">
 </details>
 
 <details><summary>404 page</summary>
-
+<img src="docs/validation/404.html.png">
 </details>
 
 [Back to top &uarr;](#total-guitar)
 
 ### CSS Validation
-
-The  W3C Jigsaw CSS Validation Service was used to test css code of website.this validator showed no errors.
+ The  W3C Jigsaw CSS Validation Service was used to test css code of website.this validator showed no errors.
 <details><summary>Css</summary>
+<img src="docs/validation/css-validator.png">
+</details>
 
+
+### JavaScript Validation
+ JSHint Javascript Validation Service was used to validate the Javascript files. No significant issues were found.
+<details><summary>main.js</summary>
+<img src="docs/validation/main.js-validation.png">
+</details>
+<details><summary>quiz.js</summary>
+<img src="docs/validation/quiz.js-validation.png">
+</details>
+<details><summary>questions.js</summary>
+<img src="docs/validation/questions.js-validation.png">
+</details>
+<details><summary>contact.js</summary>
+<img src="docs/validation/contact.js-validation.png">
 </details>
 
 
