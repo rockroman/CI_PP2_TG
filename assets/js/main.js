@@ -27,35 +27,18 @@ let finalScore=document.querySelector('#final-score');
  let currentScore=[];
  let currentTries=[];
 
-
-
-// ccode for input mobile keyboard not distortin layout
-
-
-
-
-// end keyboard
-
-/**
- * optional vars
- */
-let dummyInstruments=["../assets/images/dummy1-guilherme-paiva-unsplash.jpg","../assets/images/dummy2-guitar-g341940868_640.jpg","../assetsimages/dummy3-wood-gce9c5bb8c_640.jpg","../assets/images/dummy4-polygon-group-unsplash.jpg"];
-let myInstrument=document.createElement('img');
-myInstrument.setAttribute('class','my-inst');
-// myInstrument.src=dummyInstruments[Math.floor(Math.random()*4)];
-
 /**
  * defining the game field width and height
  */
+
  let gameHeight=gameField.offsetHeight;
  let gameWidth=gameField.offsetWidth;
-
  /**
   * create target element and set atribute for the same
   */
  let targetGuitar=document.createElement('img');
  targetGuitar.setAttribute('id','target-guitar');
- targetGuitar.setAttribute('class','guitar')
+ targetGuitar.setAttribute('class','guitar');
  targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
 
 /**
@@ -68,7 +51,7 @@ shotSpot.setAttribute('id','holeImg');
  */
 next_Btn.addEventListener('click',function(){
     welcome_Screen.setAttribute('class','hide');
-})
+});
 
 /**
  * restart the game after
@@ -79,7 +62,7 @@ try_Again.addEventListener('click',function(){
     startGame();
     game_Over.style.display='none';
 
-})
+});
 
 /**
  * add listener to start modal button
@@ -88,14 +71,14 @@ try_Again.addEventListener('click',function(){
 play_Btn.addEventListener('click',function(){
     start_Modal.setAttribute('class','hide');
     startGame();
-})
+});
 
 /**
  * user can proceed to quiz game
  */
 play_Quiz.addEventListener('click',function(){
-    location.href='quiz.html'
-})
+    location.href='quiz.html';
+});
 
 /**
  * make custom cursor folow movement of cursor
@@ -109,7 +92,8 @@ function cursor(e){
 window.addEventListener('mousemove',cursor);
 
 /**
- * 
+ * putting the image of
+ * bullet hole on click position on the screen
  */
 function shootingCursor(){
     gameField.addEventListener('click',(e)=>{
@@ -118,23 +102,8 @@ function shootingCursor(){
         shotSpot.style.top=(e.pageY-95) + 'px';
         shotSpot.style.left=(e.pageX-15) + 'px';
 
-        console.log(e.pageY);
-
     });
 }
-
-// gameField.addEventListener('click',customholeImg);
-
-// /**
-//  * 
-//  */
-// function customholeImg(e){
-//     gameField.appendChild(shotSpot);   
-//     shotSpot.style.display='block'
-//     shotSpot.style.left=(e.pageX-10) + 'px'
-//     shotSpot.style.top=(e.pageY-15) + 'px';
-
-// }
 
 /**
  * recognizing hit and miss of target and updating score and tries
@@ -142,7 +111,7 @@ function shootingCursor(){
 gameField.addEventListener('click',(e)=>{
     if(e.target===targetGuitar){
         score +=10;
-        hitDetector.classList.add('show')
+        hitDetector.classList.add('show');
         my_score.textContent=score;
         console.log('yes');
     }
@@ -157,7 +126,7 @@ gameField.addEventListener('click',(e)=>{
     // remove hit detection text
     setTimeout(function(){
         hitDetector.classList.remove('show');
-    },400)
+    },400);
 });
 
 /**
@@ -178,7 +147,6 @@ gameField.addEventListener('click',(e)=>{
             finalScore.textContent=currentScore[0];
             gameOver();
         }
-
       
     });
 }
@@ -203,15 +171,8 @@ function makeTargetGuitar(){
     targetGuitar.style.top=randomPosTop + 'px';
     targetGuitar.style.left=randomPosLeft + 'px';
     gameField.appendChild(targetGuitar);
-    // targetGuitar.style.display='block';
     
 }
-
-/**
- * posible function
- */
-//  same like make target but (random dummy target and append myInstrument)
-
 
 /**
  * clicks on a screen counter for setting the game pace
@@ -221,14 +182,11 @@ gameField.addEventListener('click',function(){
     countClicksInGame +=1;
 });
 
-
-
-
 function startGame(){
     score=0;
     tries=5;
-    document.body.style.cursor='none'
-    myCursor.style.display='block'
+    document.body.style.cursor='none';
+    myCursor.style.display='block';
     shootingCursor();
     getScore();
     // make variables to store interval id's so the interval can be cleared
@@ -249,8 +207,7 @@ function startGame(){
             gameField.removeChild(targetGuitar);
             k=setInterval(makeTargetGuitar,900);
         }
-    })
+    });
       
 
 }
-// startGame();
