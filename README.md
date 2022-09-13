@@ -303,6 +303,8 @@ W3C Markup Service was used to validate the HTML of the website and all code pas
 [Back to top &uarr;](#total-guitar)
 
 ### CSS Validation
+
+***
  The  W3C Jigsaw CSS Validation Service was used to test css code of website.this validator showed no errors.
 <details><summary>Css</summary>
 <img src="docs/validation/css-validator.png">
@@ -328,27 +330,43 @@ W3C Markup Service was used to validate the HTML of the website and all code pas
 ### Accessibility
 
 I used  WAVE WebAIM web accessibility evaluation service to ensure the project's high standards regarding accessibility.
-<details><summary>Website</summary>
+everything passed with 0 errors
 
+<details><summary>Homepage</summary>
+<img src="docs/validation/vawe-whole-project.png">
+</details>
+<details><summary>quiz-page</summary>
+<img src="docs/validation/quiz.vawe.png">
 </details>
 <details><summary>404-page</summary>
-
+<img src="docs/validation/404.vawe.png">
 </details>
 
 ### Performance
 I used Google Lighthouse in Google Chrome Developer Tools to test the performance of the project.
 
-<details><summary>Website-mobile</summary>
-
+<details><summary>homepage-mobile</summary>
+<img src="docs/validation/homepage-lighthouse-mobile.png">
 </details>
-<details><summary>Website-desktop</summary>
 
+<details><summary>homepage-desktop</summary>
+<img src="docs/validation/homepage-lighthouse-desktop.png">
 </details>
+
+<details><summary>quiz-page-mobile</summary>
+<img src="docs/validation/quiz.lighthouse-mobile.png">
+</details>
+
+<details><summary>quiz-page-desktop</summary>
+<img src="docs/validation/quiz.lighthouse-desktop.png">
+</details>
+
 <details><summary>404.page-mobile</summary>
-
+<img src="docs/validation/404.lighthouse-mobile.png">
 </details>
-<details><summary>404.page-desktop</summary>
 
+<details><summary>404.page-desktop</summary>
+<img src="docs/validation/404.lighthouse-desktop.png">
 </details>
 
 ### Device testing
