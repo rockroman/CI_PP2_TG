@@ -571,6 +571,18 @@ The website was deployed using GitHub Pages by following these steps:
 ***
 ### Media
 Images:
+- [homapage-img](assets/images/assets/images/ashok-chakravarthi-orkJgUqIpio-unsplash-small.jpg): photo by <a href="https://unsplash.com/s/users/ashok-chakravarthi">Ashok chakravarthi </a> on <a href="https://unsplash.com/">unsplash</a>
+- [welcome-modal-img](assets/images/assets/images/welcome_guitar-maxime-favier-unsplash.webp): photo by <a href="https://unsplash.com/@maximefavier">Maxime favier </a> on <a href="https://unsplash.com/">unsplash</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
 
 ### code:
 
