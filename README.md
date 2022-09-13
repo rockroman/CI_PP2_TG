@@ -536,14 +536,31 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 ***
 ### Deploying on GitHub pages
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+5. The link to your published website will appear: "Your site is published at https://rockroman.github.io/CI_PP2_TG/"
 
 
 ### Local Development
 
 #### How to Fork
+ to fork the project repository you can follow these steps:
+ 1. navigate to project GitHub repository [CI_PP2_TG](https://rockroman.github.io/CI_PP2_TG/)
+ 2. navigate to upper right hand corner to "fork" section button and click on it
 
  
  #### How to Clone
+
+ 1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
 
 
 
