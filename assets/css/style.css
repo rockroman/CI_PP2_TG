@@ -342,6 +342,7 @@ html{
     background: no-repeat center/cover url(../images/welcome_guitar-maxime-favier-unsplash.webp);
     cursor: pointer;
     height: 100vh;
+
 }
 
 .main{
@@ -363,7 +364,6 @@ html{
     color: var(--clr-text-);
     font-size: 1.25rem;
     font-weight: 800;
-    /* background:linear-gradient((26deg, black, #222020)); */
     background-color: #050505;
 }
 

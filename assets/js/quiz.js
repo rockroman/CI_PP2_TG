@@ -9,10 +9,8 @@ let userScore=document.getElementById('userScore');
 let endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
 let thankYouScreen=document.getElementById('thank-you');
-let thankYouForm=document.querySelector('#thank-you-form');
 let againBtn=document.getElementById('again');
 let quizScore=document.querySelector('#quizScore');
-let  submitBtn=document.querySelector('#submit');
 
 /**
  * functionality variables
@@ -67,9 +65,7 @@ function getQuestion(){
     });
     // remove current question from array
     setOfQuestions.splice(questIndex,1);
-    console.log(setOfQuestions);
     acceptAnswers=true;
-
 
 }
 
@@ -100,12 +96,11 @@ choices.forEach(choice =>{
                 myButtons[i].classList.add('wrong');
             }
             myButtons[currentQuestion.answer-1].classList.add('correct');
-
             console.log('wrong');
         }
         setTimeout(function(){
             getQuestion();
-        },1500)
+        },1500);
     });
 });
 
@@ -126,8 +121,8 @@ endQuiz.addEventListener('click',function(){
         thankYouScreen.style.display='block';
         quizScore.textContent=userScore.textContent;
         againBtn.addEventListener('click',function(){
-            location.href='index.html'
-        })
+            location.href='index.html';
+        });
       
        
     },800);
@@ -135,59 +130,7 @@ endQuiz.addEventListener('click',function(){
  
 });
 
-
-
-
-
 startQuiz();
-
-/**
- * set up email js service
- */
-// new
-
-   
-
-   
-    
-
-
-
-
-// end new
-
-
-
-
-
-
-
-
-//  submitBtn.addEventListener("click", function (event) {
-//    event.preventDefault();
-  
-//    const serviceID = 'service_uklo3ca';
-//    const templateID = "template_eiz3yrh";
-
-//    // send the email here
-//    emailjs.sendForm('serviceID','templateID' , thankYouForm).then(
-//      (response) => {
-//        console.log("SUCCESS!", response.status, response.text);
-//        return;
-//        alert("SUCCESS!");
-//      },
-//      (error) => {
-//        console.log("FAILED...", error);
-//        alert("FAILED...", error);
-//      }
-//    );
-//  });
-
-//  submitBtn.addEventListener('click',function(){
-    
-
-//  });
-
 
 
  

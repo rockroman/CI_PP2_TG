@@ -1,7 +1,12 @@
+// thank-you form variables
+const thankYouForm=document.querySelector('#thank-you-form');
+let  submitBtn=document.querySelector('#submit');
+
 /**
  * setting up emailjs service for 
  * thank you form
  */
+
 thankYouForm.addEventListener("submit", function (event) {
     event.preventDefault();
     emailjs.init("8BNEosXr4MeYw-4I0");
@@ -10,16 +15,14 @@ thankYouForm.addEventListener("submit", function (event) {
     emailjs.sendForm('service_uklo3ca', 'template_eiz3yrh', this)
         .then(() => {
             submitBtn.value = "Send";
-            
             console.log('succes');
             submitBtn.setAttribute('disabled',true);
-            document.querySelector('#thnx-message').style.display="flex"
+            document.querySelector('#thnx-message').style.display="flex";
             thankYouForm.reset();
-
 
         }, (err) => {
            console.log('error');
-           alert('failed')
+           alert('failed');
         });
 });
 
