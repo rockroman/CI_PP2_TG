@@ -233,6 +233,7 @@ games.
 
 ### Favicon
 - small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="assets/images/favicon-32x32.png">
@@ -241,6 +242,7 @@ games.
 
 ### Navigation
 - game modals that guides user in his progress trough the project
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -258,6 +260,7 @@ games.
 
 ### Welcome pop up modal
 - presents project to a user
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -266,6 +269,7 @@ games.
 ### Rules and start game modal
 - Introduces rules of the game to a user and user can initiate the game 
 with a play button
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation2.png">
@@ -273,6 +277,7 @@ with a play button
 
 ### 1st game main screen
 - screen where user is playing his first game
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="docs/features/1st-game-main-screen.png">
@@ -280,24 +285,28 @@ with a play button
 
 ### header with game stats
 - Displays users progress during the game
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/header.png">
 </details>
 
 ### Hit identifier
 - Gives notification to user that target has been hit
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/hit-detection.png">
 </details>
 
 ### Target
 - Image that user is trying to click on the screen
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/target.png">
 </details>
 
 ### Custom cursor
 - Cursor that user is aiming with to click onto Target
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/custom-aiming-cursor.png">
 </details>
@@ -306,6 +315,7 @@ with a play button
 
 ### Game over modal
 - gives feedback to user that game is over and provides the score and option to play again
+- user story covered:
 
 <details><summary>See feature</summary>
 <img src="docs/features/game-over.png">
@@ -313,43 +323,50 @@ with a play button
 
 ### Transition modal
 - User is notified that he can proceed to quiz game
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/game modal.png">
 </details>
 
 ### quiz game main screen
 - Main quiz game screen
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-main-screen.png">
 </details>
 
 
 ### quiz stats
-- Notifies user about current progress in game 
+- Notifies user about current progress in game
+- user story covered: 
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-progrees-bar-and -counter.png">
 </details>
 
 ### end quiz button
 - User can end quiz with this button
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/end-quiz-button.png">
 </details>
 
 ### Thank-you form
 - Allows user to leave a feedback related to game
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/contact-thank_you-form.png">
 </details>
 
 ### Thank-you message
 - Notifies user that his feedback was succesfully sent
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/thank-you2.png">
 </details>
 
 ### Footer
 - Gives option to user to contact Developer
+- user story covered:
 <details><summary>See feature</summary>
 <img src="docs/features/footer.png">
 </details>
@@ -511,71 +528,93 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+| Target                          | Click and hit the target|User get points for clicking on target|working as expected| 
+| Custom cursor| Move around screen and aim the target|moves following the cursor movement|working as expected| 
+| Hit detection | click on target| user gets feedback that target is hit when hit detection is showed on the screen|working as expected| 
 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/target.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/custom-aiming-cursor.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/hit-detection.png">
 </details>
 
 4. I want to be able to see the progress im making troughout the game
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| header with game stats| Read and see the progress|Stats are constantly changing as user progresses trough the game|working as expected| 
+| quiz stats|Read and see the progress|Stats are constantly changing as user progresses trough the game|working as expected| 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/header.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/quiz-progrees-bar-and -counter.png">
 </details>
 
 5. I want to game to be challenging
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| 1st game main screen  | more clicks= more difficult the game| Game get more challenging with more clicks user makes|working as expected| 
+| quiz game main screen| Random question pups up|User get's random questions|working as expected| 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/1st-game-main-screen.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/quiz-main-screen.png">
 </details>
 
 6. I want to be able to get in touch with developer
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Footer|click on footer icon|User is taken to offered websites|working as expected| 
+|Thank-you form | Fill the form|User can leave feedback|working as expected| 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/footer.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/contact-thank_you-form.png">
 </details>
 
 7. I want to be able to leave feedback
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Thank-you form | Fill the form|User can leave feedback|working as expected|
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/contact-thank_you-form.png">
 </details>
+
+
 
 8. I want to game to be responsive no matter what device is played on.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| Media queries usage |Change screen or device size|Everything is working no matter of screen size|working as expected|
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/im-i-responsive-Total-(1).webp">
 </details>
 
 9. I want to learn something playing the game
 
-
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|quiz game main screen|click on any answer| Right answer is highlighted green|working as expected|
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/quiz-btns.png">
 </details>
 
 10. I want to be able to restart the game when i finish
@@ -667,7 +706,12 @@ Images:
 - [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
 
 ### code:
-
+ 
+- [this](https://www.youtube.com/watch?v=IMV-hf4JIK0) tutorial was used to make custom cursor follow cursor
+- part of [this](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1341s) tutorial was used to make quiz game 
+- [this](https://www.youtube.com/watch?v=MxrGPP4F8Sc&t=2067s) tutorial was inspiration for quiz game 
+- Emailjs [docs](https://www.emailjs.com/docs/) were used to connect thank you form to an Email
+- [Stackoverflow](https://stackoverflow.com/) was used to research trough development of project
 
 [Back to top &uarr;](#total-guitar)
 ## Acknowledgements
