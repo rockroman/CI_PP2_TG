@@ -1,8 +1,6 @@
 # TOTAL GUITAR
 (Developer: Roman Rakic)
 
-# PROJECT UNDER DEVELOPMENT
-
 ![Mockup image](docs/im-i-responsive-Total-(1).webp)
 
 [TOTAL GUITAR>>>Live webpage](https://rockroman.github.io/CI_PP2_TG/)
@@ -176,6 +174,8 @@ guitar based background keeping the color pallet simple and in line with project
 ### Fonts
 
 - Google Fonts were implemented on the website.I used  'Amaranth' font that has slight curves and make's the lettering eye-catching.this font family is Thick Sans font which has tidy letter and Smooth finishes.
+
+ <img src="docs/features/fonts.png">
 
 
 
@@ -471,7 +471,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
  ### Testing user stories
 
- 0. 
+ 0. I want to understand what the game is about 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -484,7 +484,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 </details>
 
-1. As a New User,I want to know what the company offers.
+1. I want to understand what the game is about
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -500,7 +500,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 </details>
 
-2. 
+2. I want to know the controls in a game
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -510,68 +510,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 </details>
 
-3. 
-
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-4. 
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-5. 
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-6. 
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-7. 
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-8. 
-
-| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
-|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
-<details><summary>Screenshots</summary>
-
-</details>
-
-9. As a returning user,I want to find and connect with company on social media.
+3. I want to game to be fun and interactive
 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
@@ -582,7 +521,68 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 </details>
 
-10. 
+4. I want to be able to see the progress im making troughout the game
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+5. I want to game to be challenging
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+6. I want to be able to get in touch with developer
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+7. I want to be able to leave feedback
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+8. I want to game to be responsive no matter what device is played on.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+9. I want to learn something playing the game
+
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+
+</details>
+
+10. I want to be able to restart the game when i finish
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -593,7 +593,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 </details>
 
 
-11. 
+11. I want game to be fast and dynamic so i can recommend it to my friends
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -603,7 +603,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-stories-11.jpg">
 </details>
 
-12. 
+12. I want to have more than one option to get in touch with developer
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|

@@ -143,6 +143,7 @@ gameField.addEventListener('click',(e)=>{
             // gameField.style.display='none';
             gameField.style.pointerEvents='none';
             transit_Screen.style.display='flex';
+            transit_Screen.style.cursor="pointer";
         }else if(a===0){
             finalScore.textContent=currentScore[0];
             gameOver();
