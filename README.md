@@ -31,7 +31,7 @@
      - [Existing-features](#existing-features)
      - [Features to implement in future](#features-to-implement-in-future)
 
-6. [Testing](#validation)
+6. [Testing](#testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Accessibility](#accessibility)
@@ -129,12 +129,10 @@ Goal of this project is creating interactive game with clear content ,that is us
 
 
 #### Returning User
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
+9. I want to learn something playing the game
+10. I want to be able to restart the game when i finish
+11. I want game to be fast and dynamic so i can recommend it to my friends 
+10. I want to have more than one option to get in touch with developer
 
 [Back to top &uarr;](#total-guitar)
 
@@ -571,8 +569,8 @@ The website was deployed using GitHub Pages by following these steps:
 ***
 ### Media
 Images:
-- [homapage-img](assets/images/assets/images/ashok-chakravarthi-orkJgUqIpio-unsplash-small.jpg): photo by <a href="https://unsplash.com/s/users/ashok-chakravarthi">Ashok chakravarthi </a> on <a href="https://unsplash.com/">unsplash</a>
-- [welcome-modal-img](assets/images/assets/images/welcome_guitar-maxime-favier-unsplash.webp): photo by <a href="https://unsplash.com/@maximefavier">Maxime favier </a> on <a href="https://unsplash.com/">unsplash</a>
+- [homapage-img](assets/images/ashok-chakravarthi-orkJgUqIpio-unsplash-small.jpg): photo by <a href="https://unsplash.com/s/users/ashok-chakravarthi">Ashok chakravarthi </a> on <a href="https://unsplash.com/">unsplash</a>
+- [welcome-modal-img](assets/images/welcome_guitar-maxime-favier-unsplash.webp): photo by <a href="https://unsplash.com/@maximefavier">Maxime favier </a> on <a href="https://unsplash.com/">unsplash</a>
 - [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
 - [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
 - [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
