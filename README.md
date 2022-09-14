@@ -475,39 +475,35 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
+|Welcome pop up modal             | read the message on ppop up window   | User has been informed about game content |working as expected|              
+| Transition pop up modal         | read message and click to proceed    | User get's feedback and instruction to proceed with game|working as expected| 
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/navigation.png">
 </details>
 <details><summary>Screenshots</summary>
-
+<img src="docs/features/game modal.png">
 </details>
 
-1. I want to understand what the game is about
+1. I want to game rules to be easy to understand
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| Game rules modal                | Modal pops up to infor user about game rules| User gets information about rules and has option to start game| working as expected| 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/features/navigation2.png">
 </details>
-<details><summary>Screenshots</summary>
 
-</details>
-<details><summary>Screenshots</summary>
 
-</details>
 
 2. I want to know the controls in a game
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| Game rules modal                | Modal pops out for user to read the game controls| User get's inform how to play game| working as expected| 
 
 <details><summary>Screenshots</summary>
-
+<img src="docs/features/navigation2.png">
 </details>
 
 3. I want to game to be fun and interactive
