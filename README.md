@@ -114,7 +114,7 @@ Goal of this project is creating interactive game with clear content ,that is us
 
 ### User Stories
 
-####  App User
+####  First time (App User)
 0. I want to understand what the game is about
 1. I want to game rules to be easy to understand 
 2. I want to know the controls in a game
@@ -124,8 +124,6 @@ Goal of this project is creating interactive game with clear content ,that is us
 6. I want to be able to get in touch with developer 
 7. I want to be able to leave feedback
 8. I want to game to be responsive no matter what device is played on.
-
-
 
 
 #### Returning User
@@ -236,35 +234,109 @@ games.
 ### Favicon
 - small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
 
+<details><summary>See feature</summary>
+<img src="">
+</details>
 ![Favicon](assets/images/favicon-32x32.png)
 
 ### Navigation
 - game modals that guides user in his progress trough the project
 
-![]()
-![]()
-![]()
+<details><summary>See feature</summary>
+<img src="">
+</details>
+<details><summary>See feature</summary>
+<img src="">
+</details>
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
 
 ### Welcome pop up modal
 - presents project to a user
 
-![]()
+<details><summary>See feature</summary>
+<img src="">
+</details>
 
 ### Rules and start game modal
 - Introduces rules of the game to a user and user can initiate the game 
 with a play button
 
-![]()
+<details><summary>See feature</summary>
+<img src="">
+</details>
 
 ### 1st game main screen
 - screen where user is playing his first game
 
-![]()
+<details><summary>See feature</summary>
+<img src="">
+</details>
 
-### Game over screen
+### header with game stats
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Hit identifier
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Target
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Game over modal
 - gives feedback to user that game is over and provides the score and option to play again
 
-![]()
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Transition modal
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### quiz game main screen
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+
+### quiz stats
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### end quiz button
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Thank-you form
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
+### Thank-you message
+-
+<details><summary>See feature</summary>
+<img src="">
+</details>
+
 
 
 
