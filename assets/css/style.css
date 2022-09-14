@@ -534,7 +534,7 @@ label{
 }
 
 .thnx-message{
-    background-color: var(--clr-modal-background);
+    background-color: var(--clr-404-btn);
     border: 2px solid var(--clr-btn-background);
     display: flex;
     flex-direction: column;

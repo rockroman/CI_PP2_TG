@@ -235,21 +235,24 @@ games.
 - small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="assets/images/favicon-32x32.png">
 </details>
-![Favicon](assets/images/favicon-32x32.png)
+
 
 ### Navigation
 - game modals that guides user in his progress trough the project
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/navigation.png">
 </details>
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/navigation2.png">
 </details>
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/game modal.png">
+</details>
+<details><summary>See feature</summary>
+<img src="docs/features/game-over.png">
 </details>
 
 
@@ -257,7 +260,7 @@ games.
 - presents project to a user
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/navigation.png">
 </details>
 
 ### Rules and start game modal
@@ -265,78 +268,91 @@ games.
 with a play button
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/navigation2.png">
 </details>
 
 ### 1st game main screen
 - screen where user is playing his first game
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/1st-game-main-screen.png">
 </details>
 
 ### header with game stats
--
+- Displays users progress during the game
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/header.png">
 </details>
 
 ### Hit identifier
--
+- Gives notification to user that target has been hit
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/hit-detection.png">
 </details>
 
 ### Target
--
+- Image that user is trying to click on the screen
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/target.png">
 </details>
+
+### Custom cursor
+- Cursor that user is aiming with to click onto Target
+<details><summary>See feature</summary>
+<img src="docs/features/custom-aiming-cursor.png">
+</details>
+
+
 
 ### Game over modal
 - gives feedback to user that game is over and provides the score and option to play again
 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/game-over.png">
 </details>
 
 ### Transition modal
--
+- User is notified that he can proceed to quiz game
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/game modal.png">
 </details>
 
 ### quiz game main screen
--
+- Main quiz game screen
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/quiz-main-screen.png">
 </details>
 
 
 ### quiz stats
--
+- Notifies user about current progress in game 
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/quiz-progrees-bar-and -counter.png">
 </details>
 
 ### end quiz button
--
+- User can end quiz with this button
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/end-quiz-button.png">
 </details>
 
 ### Thank-you form
--
+- Allows user to leave a feedback related to game
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/contact-thank_you-form.png">
 </details>
 
 ### Thank-you message
--
+- Notifies user that his feedback was succesfully sent
 <details><summary>See feature</summary>
-<img src="">
+<img src="docs/features/thank-you2.png">
 </details>
 
+### Footer
+- Gives option to user to contact Developer
+<details><summary>See feature</summary>
+<img src="docs/features/footer.png">
+</details>
 
 
 
