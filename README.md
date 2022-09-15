@@ -128,7 +128,8 @@ Goal of this project is creating interactive game with clear content ,that is us
 9. I want to learn something playing the game
 10. I want to be able to restart the game when i finish
 11. I want game to be fast and dynamic so i can recommend it to my friends 
-10. I want to have more than one option to get in touch with developer
+12. I want to have more than one option to get in touch with developer
+13. I want to know that my feedback has been sent
 
 [Back to top &uarr;](#total-guitar)
 
@@ -233,7 +234,7 @@ games.
 
 ### Favicon
 - small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
-- user story covered:
+- user story covered:11
 
 <details><summary>See feature</summary>
 <img src="assets/images/favicon-32x32.png">
@@ -242,7 +243,7 @@ games.
 
 ### Navigation
 - game modals that guides user in his progress trough the project
-- user story covered:
+- user story covered:0,1,2
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -260,7 +261,7 @@ games.
 
 ### Welcome pop up modal
 - presents project to a user
-- user story covered:
+- user story covered:0
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -269,7 +270,7 @@ games.
 ### Rules and start game modal
 - Introduces rules of the game to a user and user can initiate the game 
 with a play button
-- user story covered:
+- user story covered:2,3
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation2.png">
@@ -277,7 +278,7 @@ with a play button
 
 ### 1st game main screen
 - screen where user is playing his first game
-- user story covered:
+- user story covered:5,11
 
 <details><summary>See feature</summary>
 <img src="docs/features/1st-game-main-screen.png">
@@ -285,28 +286,28 @@ with a play button
 
 ### header with game stats
 - Displays users progress during the game
-- user story covered:
+- user story covered:4
 <details><summary>See feature</summary>
 <img src="docs/features/header.png">
 </details>
 
 ### Hit identifier
 - Gives notification to user that target has been hit
-- user story covered:
+- user story covered:4,3
 <details><summary>See feature</summary>
 <img src="docs/features/hit-detection.png">
 </details>
 
 ### Target
 - Image that user is trying to click on the screen
-- user story covered:
+- user story covered:3,11
 <details><summary>See feature</summary>
 <img src="docs/features/target.png">
 </details>
 
 ### Custom cursor
 - Cursor that user is aiming with to click onto Target
-- user story covered:
+- user story covered:3,11
 <details><summary>See feature</summary>
 <img src="docs/features/custom-aiming-cursor.png">
 </details>
@@ -315,7 +316,7 @@ with a play button
 
 ### Game over modal
 - gives feedback to user that game is over and provides the score and option to play again
-- user story covered:
+- user story covered:10
 
 <details><summary>See feature</summary>
 <img src="docs/features/game-over.png">
@@ -323,14 +324,14 @@ with a play button
 
 ### Transition modal
 - User is notified that he can proceed to quiz game
-- user story covered:
+- user story covered:0
 <details><summary>See feature</summary>
 <img src="docs/features/game modal.png">
 </details>
 
 ### quiz game main screen
 - Main quiz game screen
-- user story covered:
+- user story covered:5,9
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-main-screen.png">
 </details>
@@ -338,35 +339,35 @@ with a play button
 
 ### quiz stats
 - Notifies user about current progress in game
-- user story covered: 
+- user story covered: 4
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-progrees-bar-and -counter.png">
 </details>
 
 ### end quiz button
 - User can end quiz with this button
-- user story covered:
+- user story covered:10
 <details><summary>See feature</summary>
 <img src="docs/features/end-quiz-button.png">
 </details>
 
 ### Thank-you form
 - Allows user to leave a feedback related to game
-- user story covered:
+- user story covered:10
 <details><summary>See feature</summary>
 <img src="docs/features/contact-thank_you-form.png">
 </details>
 
 ### Thank-you message
 - Notifies user that his feedback was succesfully sent
-- user story covered:
+- user story covered:13
 <details><summary>See feature</summary>
 <img src="docs/features/thank-you2.png">
 </details>
 
 ### Footer
 - Gives option to user to contact Developer
-- user story covered:
+- user story covered:12
 <details><summary>See feature</summary>
 <img src="docs/features/footer.png">
 </details>
@@ -628,11 +629,15 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
 | Game over modal|click the button to restart the game |Start game from begining|working as expected|
 | Thank-you form |click the button to restart the game |Start game from begining|working as expected|
+| end quiz btn| Xlick the button| user is taken to a screen that allows restarting the game|working as expected|
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/game-over.png">
 </details>
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/contact-thank_you-form.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/end-quiz-button.png">
 </details>
 
 
@@ -663,8 +668,20 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |footer | Click on footer icons|user is taken to chosen site|working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story/user-stories-11.jpg">
+<img src="docs/user-stories/fonts.png">
 </details>
+
+13. I want to know that my feedback has been sent
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+| Thank-you message | read about feedback |Notifies user that his feedback was succesfully sent|working as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/thank-you2.png">
+</details>
+
+
 [Back to top &uarr;](#total-guitar)
 
 ## Bugs
@@ -737,3 +754,8 @@ Images:
 
 ***
 I would like to take a few moments to say Thank you to following people:
+
+- First i would like to thank my wife Una and my daughter Tara for continuous support and understanding while working on development of this project.
+- I would like to thank my Mentor Mo.Shami for his support ,insight expertise and guidance.
+- I would like to thank [Nemanja Manojlovic_alumni](https://github.com/Manojlovic1998) for excellent ideas and feedback  
+- Awesome Code Institute Slack community for being there
