@@ -494,11 +494,16 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
 |Welcome pop up modal             | read the message on ppop up window   | User has been informed about game content |working as expected|              
 | Transition pop up modal         | read message and click to proceed    | User get's feedback and instruction to proceed with game|working as expected| 
+|favicon|look and see what game theme is|User can prepare what contant to expect|working as expected|
+
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/navigation.png">
 </details>
 <details><summary>Screenshots</summary>
 <img src="docs/features/game modal.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="assets/images/favicon-32x32.png">
 </details>
 
 1. I want to game rules to be easy to understand
@@ -621,10 +626,13 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
-
+| Game over modal|click the button to restart the game |Start game from begining|working as expected|
+| Thank-you form |click the button to restart the game |Start game from begining|working as expected|
 <details><summary>Screenshots</summary>
-
+<img src="docs/user-stories/game-over.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/contact-thank_you-form.png">
 </details>
 
 
@@ -632,16 +640,27 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|  Target                          | Click and hit the target|User get points for clicking on target|working as expected| 
+| Custom cursor| Move around screen and aim the target|moves following the cursor movement|working as expected| 
+|quiz game main screen|click on any answer| Right answer is highlighted green|working as expected|
+
 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story/user-stories-11.jpg">
+<img src="docs/user-stories/target.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/custom-aiming-cursor.png">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/quiz-btns.png">
 </details>
 
 12. I want to have more than one option to get in touch with developer
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|footer | Click on footer icons|user is taken to chosen site|working as expected|
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story/user-stories-11.jpg">
