@@ -18,7 +18,7 @@
 3. [Design](#design)
     - [ Chosen Design](#chosen-design)
     - [Wireframes](#wireframes)
-    - [Colour](#colour)
+    - [Colour Scheme](#colour-scheme)
     - [Fonts](#fonts)
     - [Structure](#structure)
     
@@ -54,8 +54,8 @@ Total Guitar is small interesting two part javascript game,
 that brings together reaction and knowledge game based on world of guitar and Rock n' roll.
 With fun fast and interesting game concept users will be taken into the world of guitar.
 Targeted user is anyone with interest in the guitar  instrument and highlights in history related to
-it.Project is developedas part of  five milestone projects for acquiring the "Diploma In Software Development" with Code institute.
-Requirements of this project is showing the use of Javascript and showcasing interactivness of web-site or web application.
+it.Project is developed as part of  five milestone projects for acquiring the "Diploma In Software Development" with Code institute.
+Requirements of this project is showing the use of Javascript and showcasing interactiveness of web-site or web application.
 
 
 
@@ -72,11 +72,11 @@ Goal of this project is creating interactive game with clear content ,that is us
 
 ### Site Owner Goals
 
-- Develop uniqe and interesting game
+- Develop unique and interesting game
 - Provide fun fast and interactive content
-- Incorporate fun and callenge
+- Incorporate fun and challenges
 - Make design simple and user-friendly
-- Make game responsive and accesible
+- Make game responsive and accessible
 - Give clear feedback to User
 
 
@@ -91,8 +91,8 @@ Goal of this project is creating interactive game with clear content ,that is us
 ### Ideal User
 
 - Anyone with musical interest
-- People who want's to be entertained and challenged at the same time
-- Any user who besides intersting and fun contents has desire to learn something
+- People who want to be entertained and challenged at the same time
+- Any user who besides interesting and fun content has desire to learn something
 
 
 
@@ -105,7 +105,7 @@ Goal of this project is creating interactive game with clear content ,that is us
 - Notifications and feedback to be clear and brief
 - A way to get in touch with developer
 - Having an option to leave feedback
-- Meaningfull and logical presentation of project's content 
+- Meaningful   and logical presentation of project's content 
 
 
 
@@ -117,7 +117,7 @@ Goal of this project is creating interactive game with clear content ,that is us
 1. I want to game rules to be easy to understand 
 2. I want to know the controls in a game
 3. I want to game to be fun and interactive
-4. I want to be able to see the progress im making troughout the game
+4. I want to be able to see the progress Im making throughout  the game
 5. I want to game to be challenging
 6. I want to be able to get in touch with developer 
 7. I want to be able to leave feedback
@@ -174,7 +174,7 @@ guitar based background keeping the color pallet simple and in line with project
 
 ### Fonts
 
-- Google Fonts were implemented on the website.I used  'Amaranth' font that has slight curves and make's the lettering eye-catching.this font family is Thick Sans font which has tidy letter and Smooth finishes.
+- Google Fonts were implemented on the website.I used  'Amaranth' font that has slight curves and makes the lettering eye-catching.this font family is Thick Sans font which has tidy letter and Smooth finishes.
 
  <img src="docs/features/fonts.png">
 
@@ -184,19 +184,19 @@ guitar based background keeping the color pallet simple and in line with project
 ### Structure
 
 - Structure implemented for this project is user friendly,easy to navigate with 2 separate screens for each type of the 
-game with inteligently designed pop up modals that are guiding the user and  offering feedback while progressing trough 
+game with intelligently  designed pop up modals that are guiding the user and  offering feedback while progressing through 
 games.
 
 - project consists of folowing screens:
   
   - Welcome screen with pop up modal that welcomes user and presents the content of a Project
   - 2nd pop up modal with first game rules and button that initiates the game
-  - First game main screen with game field ,target and custome made aiming cursor
+  - First game main screen with game field ,target and custom,made aiming cursor
   - game over modal or transition modal depending on outcome of the game one will direct user to a 2nd game while other 
   will greet user and offer a chance to play again
   - main 2nd game screen that is presented to user with buttons offering answers to a question ,question himself and 
   quiz stats section with progress bar and points counter
-  - Thank you form that wich alouds user to give feedback to a developer 
+  - Thank you form that which allows user to give feedback to a developer 
 
  
 
@@ -242,7 +242,7 @@ games.
 
 
 ### Navigation
-- game modals that guides user in his progress trough the project
+- game modals that guides user in his progress through the project
 - user story covered:0,1,2
 
 <details><summary>See feature</summary>
@@ -359,7 +359,7 @@ with a play button
 </details>
 
 ### Thank-you message
-- Notifies user that his feedback was succesfully sent
+- Notifies user that his feedback was successfully sent
 - user story covered:13
 <details><summary>See feature</summary>
 <img src="docs/features/thank-you2.png">
@@ -493,9 +493,9 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-|Welcome pop up modal             | read the message on ppop up window   | User has been informed about game content |working as expected|              
-| Transition pop up modal         | read message and click to proceed    | User get's feedback and instruction to proceed with game|working as expected| 
-|favicon|look and see what game theme is|User can prepare what contant to expect|working as expected|
+|Welcome pop up modal             | read the message on pop up window   | User has been informed about game content |working as expected|              
+| Transition pop up modal         | read message and click to proceed    | User gets feedback and instruction to proceed with game|working as expected| 
+|favicon|look and see what game theme is|User can prepare what content to expect|working as expected|
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/navigation.png">
@@ -511,7 +511,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-| Game rules modal                | Modal pops up to infor user about game rules| User gets information about rules and has option to start game| working as expected| 
+| Game rules modal                | Modal pops up to inform user about game rules| User gets information about rules and has option to start game| working as expected| 
 
 <details><summary>Screenshots</summary>
 <img src="docs/features/navigation2.png">
@@ -523,7 +523,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-| Game rules modal                | Modal pops out for user to read the game controls| User get's inform how to play game| working as expected| 
+| Game rules modal                | Modal pops out for user to read the game controls| User gets inform how to play game| working as expected| 
 
 <details><summary>Screenshots</summary>
 <img src="docs/features/navigation2.png">
@@ -549,12 +549,12 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-stories/hit-detection.png">
 </details>
 
-4. I want to be able to see the progress im making troughout the game
+4. I want to be able to see the progress Im making throughout the game
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-| header with game stats| Read and see the progress|Stats are constantly changing as user progresses trough the game|working as expected| 
-| quiz stats|Read and see the progress|Stats are constantly changing as user progresses trough the game|working as expected| 
+| header with game stats| Read and see the progress|Stats are constantly changing as user progresses through the game|working as expected| 
+| quiz stats|Read and see the progress|Stats are constantly changing as user progresses through the game|working as expected| 
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/header.png">
@@ -568,7 +568,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
 | 1st game main screen  | more clicks= more difficult the game| Game get more challenging with more clicks user makes|working as expected| 
-| quiz game main screen| Random question pups up|User get's random questions|working as expected| 
+| quiz game main screen| Random question pups up|User gets random questions|working as expected| 
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/1st-game-main-screen.png">
@@ -623,13 +623,13 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-stories/quiz-btns.png">
 </details>
 
-10. I want to be able to restart the game when i finish
+10. I want to be able to restart the game when I finish
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-| Game over modal|click the button to restart the game |Start game from begining|working as expected|
-| Thank-you form |click the button to restart the game |Start game from begining|working as expected|
-| end quiz btn| Xlick the button| user is taken to a screen that allows restarting the game|working as expected|
+| Game over modal|click the button to restart the game |Start game from beginning|working as expected|
+| Thank-you form |click the button to restart the game |Start game from beginning|working as expected|
+| end quiz btn| click the button| user is taken to a screen that allows restarting the game|working as expected|
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/game-over.png">
 </details>
@@ -675,7 +675,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-| Thank-you message | read about feedback |Notifies user that his feedback was succesfully sent|working as expected|
+| Thank-you message | read about feedback |Notifies user that his feedback was successfully sent|working as expected|
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories/thank-you2.png">
@@ -689,28 +689,28 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 ***
 
 1. bug: after game was over due to to many times target was missed,user could still hit the target and score
-- solution:after resarching i came to idea to not allow any more clicks on game field section
+- solution:after researching  i came to idea to not allow any more clicks on game field section
 
-2. bug:taget image created with javascript wasnt loading!!
+2. bug:target image created with javascript wasn't loading!!
  - solution image path was incorrect
 
-3. bug: wen setting welcome and start game screen display flex was overriding clas hide that i made to put display none to element.
-- solution:solved bug with trial and error and removed display propperty from an id of element and put it to class of element.
+3. bug: when setting welcome and start game screen display flex was overriding class hide that i made to put display none to element.
+- solution:solved bug with trial and error and removed display property from an id of element and put it to class of element.
 
 4. bug:404 page footer was inheriting background color from footer on index html page
-- solution: give uniqe id and apply style
+- solution: give unique id and apply style
 
-5. bug: 404 main container wasnt covering entire page on mobile with height:100%
+5. bug: 404 main container wasn't covering entire page on mobile with height:100%
 - solution: searching on  stack-overflow found solution in putting  element- height to 100vh
 
-6. bug:missed one letter in namig class of bootstrap container
-- solution:with trial and error method spoted the mistake and  added  letter 
+6. bug:missed one letter in namnig class of bootstrap container
+- solution:with trial and error method spotted the mistake and  added  letter 
 
-7. bug:thank you form button could be pressed even submiting the form
-- solution: after going trough Stackoverflow found solution in putting 'disabled atrribute to button to be true.
+7. bug:thank you form button could be pressed even submitting the form
+- solution: after going through Stackoverflow found solution in putting 'disabled attribute to button to be true.
 
 8. bug: pressed quiz(bootstrap) button hover state would stayed active on IOS device.
-- solution: going trough Stackoverflow found out that is the common problem so I came to idea to put hover state color same as no hover state 
+- solution: going through Stackoverflow found out that is the common problem so I came to idea to put hover state color same as no hover state 
 
 
 
@@ -722,7 +722,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: main
-4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+4. Once saved, GitHub will refresh and your website will be published from GitHub repository
 5. The link to your published website will appear: "Your site is published at https://rockroman.github.io/CI_PP2_TG/"
 
 
@@ -768,10 +768,10 @@ Images:
 - part of [this](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1341s) tutorial was used to make quiz game 
 - [this](https://www.youtube.com/watch?v=MxrGPP4F8Sc&t=2067s) tutorial was inspiration for quiz game 
 - Emailjs [docs](https://www.emailjs.com/docs/) were used to connect thank you form to an Email
-- [Stackoverflow](https://stackoverflow.com/) was used to research trough development of project
+- [Stackoverflow](https://stackoverflow.com/) was used to research through development of project
 
 [Back to top &uarr;](#total-guitar)
-## Acknowledgements
+## Acknowledgments
 
 ***
 I would like to take a few moments to say Thank you to following people:
