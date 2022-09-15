@@ -243,7 +243,7 @@ games.
 
 ### Navigation
 - game modals that guides user in his progress through the project
-- user story covered:0,1,2
+- user story covered: 0,1,2
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -261,7 +261,7 @@ games.
 
 ### Welcome pop up modal
 - presents project to a user
-- user story covered:0
+- user story covered: 0
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation.png">
@@ -270,7 +270,7 @@ games.
 ### Rules and start game modal
 - Introduces rules of the game to a user and user can initiate the game 
 with a play button
-- user story covered:2,3
+- user story covered: 2,3
 
 <details><summary>See feature</summary>
 <img src="docs/features/navigation2.png">
@@ -278,7 +278,7 @@ with a play button
 
 ### 1st game main screen
 - screen where user is playing his first game
-- user story covered:5,11
+- user story covered: 5,11
 
 <details><summary>See feature</summary>
 <img src="docs/features/1st-game-main-screen.png">
@@ -286,28 +286,28 @@ with a play button
 
 ### header with game stats
 - Displays users progress during the game
-- user story covered:4
+- user story covered: 4
 <details><summary>See feature</summary>
 <img src="docs/features/header.png">
 </details>
 
 ### Hit identifier
 - Gives notification to user that target has been hit
-- user story covered:4,3
+- user story covered: 4,3
 <details><summary>See feature</summary>
 <img src="docs/features/hit-detection.png">
 </details>
 
 ### Target
 - Image that user is trying to click on the screen
-- user story covered:3,11
+- user story covered: 3,11
 <details><summary>See feature</summary>
 <img src="docs/features/target.png">
 </details>
 
 ### Custom cursor
 - Cursor that user is aiming with to click onto Target
-- user story covered:3,11
+- user story covered: 3,11
 <details><summary>See feature</summary>
 <img src="docs/features/custom-aiming-cursor.png">
 </details>
@@ -316,7 +316,7 @@ with a play button
 
 ### Game over modal
 - gives feedback to user that game is over and provides the score and option to play again
-- user story covered:10
+- user story covered: 10
 
 <details><summary>See feature</summary>
 <img src="docs/features/game-over.png">
@@ -324,14 +324,14 @@ with a play button
 
 ### Transition modal
 - User is notified that he can proceed to quiz game
-- user story covered:0
+- user story covered: 0
 <details><summary>See feature</summary>
 <img src="docs/features/game modal.png">
 </details>
 
 ### quiz game main screen
 - Main quiz game screen
-- user story covered:5,9
+- user story covered: 5,9
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-main-screen.png">
 </details>
@@ -346,37 +346,31 @@ with a play button
 
 ### end quiz button
 - User can end quiz with this button
-- user story covered:10
+- user story covered: 10
 <details><summary>See feature</summary>
 <img src="docs/features/end-quiz-button.png">
 </details>
 
 ### Thank-you form
 - Allows user to leave a feedback related to game
-- user story covered:10
+- user story covered: 10
 <details><summary>See feature</summary>
 <img src="docs/features/contact-thank_you-form.png">
 </details>
 
 ### Thank-you message
 - Notifies user that his feedback was successfully sent
-- user story covered:13
+- user story covered: 13
 <details><summary>See feature</summary>
 <img src="docs/features/thank-you2.png">
 </details>
 
 ### Footer
 - Gives option to user to contact Developer
-- user story covered:12
+- user story covered: 12
 <details><summary>See feature</summary>
 <img src="docs/features/footer.png">
 </details>
-
-
-
-
-
-
 
 
 ## Features to implement in future
