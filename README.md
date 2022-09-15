@@ -688,6 +688,31 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 ***
 
+1. bug: after game was over due to to many times target was missed,user could still hit the target and score
+- solution:after resarching i came to idea to not allow any more clicks on game field section
+
+2. bug:taget image created with javascript wasnt loading!!
+ - solution image path was incorrect
+
+3. bug: wen setting welcome and start game screen display flex was overriding clas hide that i made to put display none to element.
+- solution:solved bug with trial and error and removed display propperty from an id of element and put it to class of element.
+
+4. bug:404 page footer was inheriting background color from footer on index html page
+- solution: give uniqe id and apply style
+
+5. bug: 404 main container wasnt covering entire page on mobile with height:100%
+- solution: searching on  stack-overflow found solution in putting  element- height to 100vh
+
+6. bug:missed one letter in namig class of bootstrap container
+- solution:with trial and error method spoted the mistake and  added  letter 
+
+7. bug:thank you form button could be pressed even submiting the form
+- solution: after going trough Stackoverflow found solution in putting 'disabled atrribute to button to be true.
+
+8. bug: pressed quiz(bootstrap) button hover state would stayed active on IOS device.
+- solution: going trough Stackoverflow found out that is the common problem so I came to idea to put hover state color same as no hover state 
+
+
 
 ## Deployment
 
