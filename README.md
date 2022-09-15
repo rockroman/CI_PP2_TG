@@ -729,17 +729,13 @@ The website was deployed using GitHub Pages by following these steps:
 ### Media
 Images:
 - [homapage-img](assets/images/ashok-chakravarthi-orkJgUqIpio-unsplash-small.jpg): photo by <a href="https://unsplash.com/s/users/ashok-chakravarthi">Ashok chakravarthi </a> on <a href="https://unsplash.com/">unsplash</a>
-- [welcome-modal-img](assets/images/welcome_guitar-maxime-favier-unsplash.webp): photo by <a href="https://unsplash.com/@maximefavier">Maxime favier </a> on <a href="https://unsplash.com/">unsplash</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">unsplash</a>
+- [welcome-modal-img and quiz game background](assets/images/welcome_guitar-maxime-favier-unsplash.webp): photo by <a href="https://unsplash.com/@maximefavier">Maxime favier </a> on <a href="https://unsplash.com/">unsplash</a>
+
+- [Thank-you form](assets/images/thank-you2-jeremy-allouche-unsplash.webp): photo by <a href="https://unsplash.com/@jerroams">Jeremy Allouche
+ </a> on <a href="https://unsplash.com/">unsplash</a>
 - [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
 - [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+
 
 ### code:
  
