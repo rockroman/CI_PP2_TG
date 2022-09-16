@@ -216,239 +216,40 @@ let allQuestions=[
         answer:4
     },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Which of these men can be considered a virtuoso of classical guitar?',
+        choice1:'Ritchie Blackmore',
+        choice2:'Andres Segovia',
+        choice3:'Frank Zappa',
+        choice4:'Edward Van Halen',
+        answer:2
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'How many studio albums did Nirvana release?',
+        choice1:'four',
+        choice2:'five',
+        choice3:'three',
+        choice4:'one',
+        answer:3
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
+    {
+        question:'Which Guns n Roses guitarist performs the guitar solo on ‘Sweet Child O’ Mine’?',
+        choice1:'Izzy',
+        choice2:'Duff',
+        choice3:'Gillby',
+        choice4:'Slash',
+        answer:4
+    },
 
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    // {
-    //     question:'',
-    //     choice1:'',
-    //     choice2:'',
-    //     choice3:'',
-    //     choice4:'',
-    //     answer:
-    // },
-
-    
+    {
+        question:'Who was the original lead guitarist for Bon Jovi?',
+        choice1:'Richie Sambora.',
+        choice2:'Phil X',
+        choice3:'Bon Jovi',
+        choice4:'Joe Perry',
+        answer:1
+    }
+  
 ];

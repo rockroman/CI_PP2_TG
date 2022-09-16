@@ -376,6 +376,10 @@ with a play button
 ## Features to implement in future
 <hr>
 
+- Increase the number of targets that will make game even more challenging
+- Make a dummy target to make user even more focused
+- Introduce more variety into questions
+
 
 
 ## Testing
