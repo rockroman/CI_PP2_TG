@@ -667,7 +667,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |footer | Click on footer icons|user is taken to chosen site|working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-stories/fonts.png">
+<img src="docs/user-stories/footer.png">
 </details>
 
 13. I want to know that my feedback has been sent
