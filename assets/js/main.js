@@ -17,29 +17,29 @@ let finalScore=document.querySelector('#final-score');
 /**
  * game screen variables
  */
- let gameField=document.getElementById('game-field');
- let myCursor=document.querySelector('.cursor');
- let shotSpot=document.createElement('div');
- let my_score=document.getElementById('my_score');
- let my_tries=document.getElementById('my_tries');
- let score=0;
- let tries=5;
- let currentScore=[];
- let currentTries=[];
+let gameField=document.getElementById('game-field');
+let myCursor=document.querySelector('.cursor');
+let shotSpot=document.createElement('div');
+let my_score=document.getElementById('my_score');
+let my_tries=document.getElementById('my_tries');
+let score=0;
+let tries=5;
+let currentScore=[];
+let currentTries=[];
 
 /**
  * defining the game field width and height
  */
+let gameHeight=gameField.offsetHeight;
+let gameWidth=gameField.offsetWidth;
 
- let gameHeight=gameField.offsetHeight;
- let gameWidth=gameField.offsetWidth;
- /**
-  * create target element and set atribute for the same
-  */
- let targetGuitar=document.createElement('img');
- targetGuitar.setAttribute('id','target-guitar');
- targetGuitar.setAttribute('class','guitar');
- targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
+/**
+* create target element and set atribute for the same
+ */
+let targetGuitar=document.createElement('img');
+targetGuitar.setAttribute('id','target-guitar');
+targetGuitar.setAttribute('class','guitar');
+targetGuitar.src='assets/images/welcome_guitar-modal-maxime-favier-unsplash.jpg';
 
 /**
  * setting atribute for custom cursor click
@@ -134,7 +134,7 @@ gameField.addEventListener('click',(e)=>{
  * based on the result either finishes the game
  * or make user proceed to a quiz game 
  */
- function getScore(){
+function getScore(){
     gameField.addEventListener('click',function(){
         // variables that holds current score and number of tries
         let y=currentScore[0];

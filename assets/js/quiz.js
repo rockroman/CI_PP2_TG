@@ -6,11 +6,14 @@ let question=document.getElementById('question');
 let choices=Array.from(document.getElementsByClassName('choice-text'));
 let progressBarFull=document.getElementById('progressBarFull');
 let userScore=document.getElementById('userScore');
-let endQuiz=document.getElementById('next');
+const endQuiz=document.getElementById('next');
 let myButtons=document.querySelectorAll('.answers');
-let thankYouScreen=document.getElementById('thank-you');
-let againBtn=document.getElementById('again');
+const thankYouScreen=document.getElementById('thank-you');
+const againBtn=document.getElementById('again');
 let quizScore=document.querySelector('#quizScore');
+
+// import all questions from questions.js file
+import {allQuestions} from "./questions.js";
 
 /**
  * functionality variables
@@ -30,8 +33,7 @@ function startQuiz(){
     score=0;
     // populate array with questions from external js file
     setOfQuestions=[...allQuestions];
-    getQuestion();
-   
+    getQuestion();  
 }
 
 /**
@@ -80,7 +82,6 @@ choices.forEach(choice =>{
         let selectedChoice=e.target;
         let selectedAnswer=selectedChoice.dataset.number;
        
-
         // check if answer is true or false
         if(selectedAnswer==currentQuestion.answer){
             console.log('correct');
@@ -122,12 +123,10 @@ endQuiz.addEventListener('click',function(){
         quizScore.textContent=userScore.textContent;
         againBtn.addEventListener('click',function(){
             location.href='index.html';
-        });
-      
+        });  
        
     },800);
 
- 
 });
 
 startQuiz();

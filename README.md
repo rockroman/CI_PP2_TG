@@ -685,15 +685,22 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 ## Bugs
 
 ***
+0. bug:jshint is reporting undefined variable 'emailjs' in contact.js file
+- solution:since Emailjs is library and in the documents section it is explained how it's used and it's done a correct way but
+still Jshint does report the same,after long Research the conclusion is that validator doesnt what the instance 'emailjs' is and 
+report should be disregarded. 
+  <details><summary>Screenshots</summary> 
+   <img src="docs/validation/contact.js-validation.png">
+  </details>
 
 1. bug: after game was over due to to many times target was missed,user could still hit the target and score
-- solution:after researching  i came to idea to not allow any more clicks on game field section
+ - solution:after researching  i came to idea to not allow any more clicks on game field section
 
 2. bug:target image created with javascript wasn't loading!!
  - solution image path was incorrect
 
 3. bug: when setting welcome and start game screen display flex was overriding class hide that i made to put display none to element.
-- solution:solved bug with trial and error and removed display property from an id of element and put it to class of element.
+ - solution:solved bug with trial and error and removed display property from an id of element and put it to class of element.
 
 4. bug:404 page footer was inheriting background color from footer on index html page
 - solution: give unique id and apply style

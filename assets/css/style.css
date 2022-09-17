@@ -9,7 +9,6 @@
     --clr-404-btn:#008000;
     --clr-btn-background:#3b3939;
     --clr-black:black;
-
 }
 
 *{
@@ -18,9 +17,7 @@
     box-sizing: border-box;
 }
 html{
-   
-    height: -webkit-fill-available;
-   
+    height: -webkit-fill-available;  
 }
 
 body{
@@ -37,9 +34,7 @@ body{
     min-height: 100vh;
     min-height: -webkit-fill-available;
     font-family: 'Amaranth',sans-serif;
-   
-    
-   
+     
 }
 
 h1{
@@ -50,7 +45,6 @@ h1{
     font-weight: 800;
     text-transform: uppercase;
     background-color: #3b3939;
-
 }
 
 header{
@@ -140,7 +134,6 @@ footer a:hover{
 }
 
 /*--------------------------modal screen styles------------------------------*/
-
 .modal{
     border: .3px inset white;
     background-color:var(--clr-black);
@@ -182,7 +175,6 @@ footer a:hover{
     color: var(--clr-text-);
     padding: 3%;
 
-
 }
 
 .welcome-screen{
@@ -193,8 +185,7 @@ footer a:hover{
     background-blend-mode: overlay;
     justify-content: center;
     gap: 5%;
-        
-  
+         
 }
 
 #welcome-screen{
@@ -213,7 +204,7 @@ footer a:hover{
     width: 100px;
     float: left;
     margin: 5px;
-     
+    
 }
 
 .hide{
@@ -236,8 +227,7 @@ footer a:hover{
     top: 0;
     margin: auto; 
     z-index: 20;
-    display: none;
-    
+    display: none;  
 
 }
 
@@ -250,9 +240,7 @@ footer a:hover{
     justify-content: center;
     gap: 15%;
     display: none;   
-    height: 520px;
-   
-   
+    height: 520px;   
 }
 
 #play-quiz{
@@ -260,7 +248,6 @@ footer a:hover{
 }
 
 /*--------------------------404 page styles------------------------------*/
-
 #container404{
     background-color: black;
     width: 100vw;
@@ -299,7 +286,6 @@ footer a:hover{
     border-radius: 5px;
     border: 1px solid var(--clr-text-);
     
-
 }
 
 #footer404{
@@ -307,8 +293,7 @@ footer a:hover{
     justify-content: space-between;
     width: 75%;
     background-color: var(--clr-black);
-    
-    
+       
 }
 
 #footer404,
@@ -329,7 +314,6 @@ footer a:hover{
     padding: 10px;
     text-align: center;
     color: var(--clr-text-);
-  
 
 }
 
@@ -441,7 +425,6 @@ html{
 
 /* bootstrap button  classes */
 
-
 /* show element class */
 .show{
     display: block;
@@ -461,9 +444,7 @@ html{
     outline: none;
     box-shadow: none;
     color: white;
-  }
-
-
+}
 
 /*--------------------------thank you form styles------------------------------*/
 
@@ -548,8 +529,7 @@ label{
     top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
-    
+     
 }
 
 #thnx-message{
@@ -558,10 +538,8 @@ label{
 
 h5{
     font-size: 2rem;
-    color: var(--clr-text-);
-    
+    color: var(--clr-text-);   
 }
-
 
 /*--------------------------media queries------------------------------*/
 
@@ -605,7 +583,7 @@ h5{
         width: 400px;
     }
 
-    /*           404 page media queries        */
+ /*---------- 404 page media queries ---------*/
 
     #subtitle404{
         font-size: 9rem;
@@ -632,7 +610,8 @@ h5{
         padding: 10px 15px;
         font-size: 1.5rem;
     } 
-/* -----------quiz media queries---------- */
+
+ /* -----------quiz media queries---------- */
    #body{
     background: no-repeat center/cover url(../images/quiz-xl-maxime-favier-unsplash\ \(1\).webp);
 

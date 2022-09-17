@@ -1,4 +1,4 @@
-let allQuestions=[
+var allQuestions=[
 
     {
         question:'What do you call the thickest string or the loudest sounding (6th String)?',
@@ -235,7 +235,7 @@ let allQuestions=[
     },
 
     {
-        question:'Which Guns n Roses guitarist performs the guitar solo on ‘Sweet Child O’ Mine’?',
+        question:'Which Guns n Roses guitarist performs the guitar solo on Sweet Child O Mine?',
         choice1:'Izzy',
         choice2:'Duff',
         choice3:'Gillby',
@@ -253,3 +253,5 @@ let allQuestions=[
     }
   
 ];
+
+export {allQuestions};
