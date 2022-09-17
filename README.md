@@ -32,6 +32,7 @@
 6. [Testing](#testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [Javascript Validation](#javascript-validation)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Device testing](#device-testing)
@@ -687,7 +688,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 ***
 0. bug:jshint is reporting undefined variable 'emailjs' in contact.js file
 - solution:since Emailjs is library and in the documents section it is explained how it's used and it's done a correct way but
-still Jshint does report the same,after long Research the conclusion is that validator doesnt what the instance 'emailjs' is and 
+still Jshint does report the same,after long Research the conclusion is that validator doesn't know what the instance 'emailjs' is and 
 report should be disregarded. 
   <details><summary>Screenshots</summary> 
    <img src="docs/validation/contact.js-validation.png">
