@@ -764,8 +764,7 @@ Images:
 
 - [Thank-you form](assets/images/thank-you2-jeremy-allouche-unsplash.webp): photo by <a href="https://unsplash.com/@jerroams">Jeremy Allouche
  </a> on <a href="https://unsplash.com/">unsplash</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
-- [](assets/images/): photo by <a href=""> </a> on <a href="">Pexels</a>
+
 
 
 ### code:
@@ -784,5 +783,6 @@ I would like to take a few moments to say Thank you to following people:
 
 - First i would like to thank my wife Una and my daughter Tara for continuous support and understanding while working on development of this project.
 - I would like to thank my Mentor Mo.Shami for his support ,insight expertise and guidance.
-- I would like to thank [Nemanja Manojlovic_alumni](https://github.com/Manojlovic1998) for excellent ideas and feedback  
+- I would like to thank [Nemanja Manojlovic_alumni](https://github.com/Manojlovic1998) for excellent ideas and feedback 
+- Simen Daehlin for taking time to give his feedback. 
 - Awesome Code Institute Slack community for being there
